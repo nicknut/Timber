@@ -8,7 +8,6 @@
 
 #import "RootViewController.h"
 #import "AccountViewController.h"
-#import "AddAccountViewController.h"
 
 @implementation RootViewController
 
@@ -33,7 +32,8 @@
 - (void)dealloc
 {
     [_accounts release], _accounts = nil;
-    [_woodTypeList release], _woodTypeList = nil;
+    [_nomList release], _nomList = nil;
+    [_results release], _results = nil;
     [super dealloc];
 }
 
@@ -47,7 +47,9 @@
 
     self.navigationItem.title = @"Timber";
     
+    _nomList = [[NSMutableArray alloc] init];
     [self loadnomDimentionSmall];
+    [self loadnomDimentionLarge];
     
     
     _accounts = [[NSMutableArray alloc] initWithObjects:
@@ -65,26 +67,54 @@
                 [NSMutableDictionary dictionaryWithObjectsAndKeys:@"Result 2", @"id", @"guest", @"password", nil],
                 nil];
     
-    UITapGestureRecognizer *tapRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleSingleTap:)];
-    [tapRecognizer setNumberOfTapsRequired:1];
-    [self.view addGestureRecognizer:tapRecognizer];
+    //UITapGestureRecognizer *tapRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleSingleTap:)];
+    //[tapRecognizer setNumberOfTapsRequired:1];
+    //[self.view addGestureRecognizer:tapRecognizer];
 }
 
 - (void) loadnomDimentionSmall
 {
-    
-    
     NSString *filePath = [[NSBundle mainBundle] pathForResource:@"nomDimentionSmall" ofType:@"csv"];
     if (filePath) {
         NSString *myText = [NSString stringWithContentsOfFile:filePath];
-        if (myText) {
-            return;
-        }
-        NSArray *contentArray = [filePath componentsSeparatedByString:@"\r"];
+
+        NSArray *contentArray = [myText componentsSeparatedByString:@"\r"];
+        int i = 0;
         for (NSString *item in contentArray) {
-            NSArray *itemsArray = [item componentsSeparatedByString:@","];
+            if(i != 0) {
+                NSArray *itemsArray = [item componentsSeparatedByString:@","];
+                [_nomList addObject:itemsArray];
+            }
+            i++;
         }
+        //[contentArray release];
+        //[myText release];
     }
+    
+    //[filePath release];
+}
+
+- (void) loadnomDimentionLarge
+{
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"nomDimentionLarge" ofType:@"csv"];
+    if (filePath) {
+        NSString *myText = [NSString stringWithContentsOfFile:filePath];
+        
+        NSArray *contentArray = [myText componentsSeparatedByString:@"\r"];
+        
+        int i = 0;
+        for (NSString *item in contentArray) {
+            if(i != 0) {
+                NSArray *itemsArray = [item componentsSeparatedByString:@","];
+                [_nomList addObject:itemsArray];
+            }
+            i++;
+        }
+        //[contentArray release];
+        //[myText release];
+    }
+    
+    //[filePath release];
 }
 
 - (void)viewDidUnload
@@ -267,7 +297,7 @@
             if (indexPath.row < 3) {
                 // Navigation logic may go here. Create and push another view controller.
                 AccountViewController *accountViewController = [[[AccountViewController alloc] init] autorelease];
-                accountViewController.datas = _accounts;
+                accountViewController.datas = _nomList;
                 accountViewController.index = row;
                 
                 // Pass the selected object to the new view controller.

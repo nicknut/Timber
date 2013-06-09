@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C48870D176523FF00887917 /* nomDimentionLarge.csv in Resources */ = {isa = PBXBuildFile; fileRef = 0C48870B176523FF00887917 /* nomDimentionLarge.csv */; };
+		0C48870E176523FF00887917 /* nomDimentionSmall.csv in Resources */ = {isa = PBXBuildFile; fileRef = 0C48870C176523FF00887917 /* nomDimentionSmall.csv */; };
 		5427E134169523910035DC3C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5427E133169523910035DC3C /* Default-568h@2x.png */; };
 		54351B9C1613DE2700620BAB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54351B9B1613DE2700620BAB /* UIKit.framework */; };
 		54351B9E1613DE2700620BAB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54351B9D1613DE2700620BAB /* Foundation.framework */; };
@@ -16,12 +18,11 @@
 		54351BAC1613DE2700620BAB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54351BAB1613DE2700620BAB /* AppDelegate.m */; };
 		54351BB41613DE6500620BAB /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54351BB31613DE6500620BAB /* RootViewController.m */; };
 		54CC7D441614BF7100B9865C /* AccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54CC7D431614BF7100B9865C /* AccountViewController.m */; };
-		54CC7D501614E59E00B9865C /* AddAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54CC7D4F1614E59E00B9865C /* AddAccountViewController.m */; };
-		83C5FDB1176417C500ECA9B5 /* nomDimentionLarge.csv in Resources */ = {isa = PBXBuildFile; fileRef = 83C5FDAF176417C500ECA9B5 /* nomDimentionLarge.csv */; };
-		83C5FDB2176417C500ECA9B5 /* nomDimentionSmall.csv in Resources */ = {isa = PBXBuildFile; fileRef = 83C5FDB0176417C500ECA9B5 /* nomDimentionSmall.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C48870B176523FF00887917 /* nomDimentionLarge.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = nomDimentionLarge.csv; sourceTree = "<group>"; };
+		0C48870C176523FF00887917 /* nomDimentionSmall.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = nomDimentionSmall.csv; sourceTree = "<group>"; };
 		5427E133169523910035DC3C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
 		54351B971613DE2700620BAB /* Timber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Timber.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54351B9B1613DE2700620BAB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -37,10 +38,6 @@
 		54351BB31613DE6500620BAB /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		54CC7D421614BF7100B9865C /* AccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountViewController.h; sourceTree = "<group>"; };
 		54CC7D431614BF7100B9865C /* AccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountViewController.m; sourceTree = "<group>"; };
-		54CC7D4E1614E59E00B9865C /* AddAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddAccountViewController.h; sourceTree = "<group>"; };
-		54CC7D4F1614E59E00B9865C /* AddAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddAccountViewController.m; sourceTree = "<group>"; };
-		83C5FDAF176417C500ECA9B5 /* nomDimentionLarge.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = nomDimentionLarge.csv; path = ../../../Documents/nomDimentionLarge.csv; sourceTree = "<group>"; };
-		83C5FDB0176417C500ECA9B5 /* nomDimentionSmall.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = nomDimentionSmall.csv; path = ../../../Documents/nomDimentionSmall.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,16 +84,14 @@
 		54351BA11613DE2700620BAB /* Timber */ = {
 			isa = PBXGroup;
 			children = (
+				0C48870B176523FF00887917 /* nomDimentionLarge.csv */,
+				0C48870C176523FF00887917 /* nomDimentionSmall.csv */,
 				54351BAA1613DE2700620BAB /* AppDelegate.h */,
 				54351BAB1613DE2700620BAB /* AppDelegate.m */,
 				54351BB21613DE6500620BAB /* RootViewController.h */,
 				54351BB31613DE6500620BAB /* RootViewController.m */,
 				54CC7D421614BF7100B9865C /* AccountViewController.h */,
-				83C5FDAF176417C500ECA9B5 /* nomDimentionLarge.csv */,
-				83C5FDB0176417C500ECA9B5 /* nomDimentionSmall.csv */,
 				54CC7D431614BF7100B9865C /* AccountViewController.m */,
-				54CC7D4E1614E59E00B9865C /* AddAccountViewController.h */,
-				54CC7D4F1614E59E00B9865C /* AddAccountViewController.m */,
 				54351BA21613DE2700620BAB /* Supporting Files */,
 			);
 			name = Timber;
@@ -167,8 +162,8 @@
 			files = (
 				54351BA61613DE2700620BAB /* InfoPlist.strings in Resources */,
 				5427E134169523910035DC3C /* Default-568h@2x.png in Resources */,
-				83C5FDB1176417C500ECA9B5 /* nomDimentionLarge.csv in Resources */,
-				83C5FDB2176417C500ECA9B5 /* nomDimentionSmall.csv in Resources */,
+				0C48870D176523FF00887917 /* nomDimentionLarge.csv in Resources */,
+				0C48870E176523FF00887917 /* nomDimentionSmall.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,7 +178,6 @@
 				54351BAC1613DE2700620BAB /* AppDelegate.m in Sources */,
 				54351BB41613DE6500620BAB /* RootViewController.m in Sources */,
 				54CC7D441614BF7100B9865C /* AccountViewController.m in Sources */,
-				54CC7D501614E59E00B9865C /* AddAccountViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

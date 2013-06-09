@@ -10,10 +10,7 @@
 
 @interface AccountViewController : UITableViewController <UIActionSheetDelegate>
 {
-    UITextField *idTextField;
-    UITextField *passwordTextField;
-    
-    NSMutableDictionary *_data;
+    NSMutableArray *_data;
 }
 
 @property (nonatomic, retain) NSMutableArray *datas;
