@@ -17,7 +17,7 @@
 		54351BA81613DE2700620BAB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54351BA71613DE2700620BAB /* main.m */; };
 		54351BAC1613DE2700620BAB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54351BAB1613DE2700620BAB /* AppDelegate.m */; };
 		54351BB41613DE6500620BAB /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54351BB31613DE6500620BAB /* RootViewController.m */; };
-		54CC7D441614BF7100B9865C /* AccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54CC7D431614BF7100B9865C /* AccountViewController.m */; };
+		54CC7D441614BF7100B9865C /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54CC7D431614BF7100B9865C /* ListViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,8 +36,8 @@
 		54351BAB1613DE2700620BAB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		54351BB21613DE6500620BAB /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		54351BB31613DE6500620BAB /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		54CC7D421614BF7100B9865C /* AccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountViewController.h; sourceTree = "<group>"; };
-		54CC7D431614BF7100B9865C /* AccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountViewController.m; sourceTree = "<group>"; };
+		54CC7D421614BF7100B9865C /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		54CC7D431614BF7100B9865C /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,8 +90,8 @@
 				54351BAB1613DE2700620BAB /* AppDelegate.m */,
 				54351BB21613DE6500620BAB /* RootViewController.h */,
 				54351BB31613DE6500620BAB /* RootViewController.m */,
-				54CC7D421614BF7100B9865C /* AccountViewController.h */,
-				54CC7D431614BF7100B9865C /* AccountViewController.m */,
+				54CC7D421614BF7100B9865C /* ListViewController.h */,
+				54CC7D431614BF7100B9865C /* ListViewController.m */,
 				54351BA21613DE2700620BAB /* Supporting Files */,
 			);
 			name = Timber;
@@ -177,7 +177,7 @@
 				54351BA81613DE2700620BAB /* main.m in Sources */,
 				54351BAC1613DE2700620BAB /* AppDelegate.m in Sources */,
 				54351BB41613DE6500620BAB /* RootViewController.m in Sources */,
-				54CC7D441614BF7100B9865C /* AccountViewController.m in Sources */,
+				54CC7D441614BF7100B9865C /* ListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

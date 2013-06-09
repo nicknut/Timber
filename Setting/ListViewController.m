@@ -1,15 +1,11 @@
 //
-//  AccountViewController.m
-//  Setting
-//
-//  Created by Hiroaki Komatsu on 12/09/28.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  ListViewController.m
 //
 
-#import "AccountViewController.h"
+#import "ListViewController.h"
 
 
-@implementation AccountViewController
+@implementation ListViewController
 
 @synthesize datas, index;
 

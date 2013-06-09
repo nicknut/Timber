@@ -1,13 +1,9 @@
 //
 //  RootViewController.m
-//  Setting
-//
-//  Created by Hiroaki Komatsu on 12/09/27.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
 #import "RootViewController.h"
-#import "AccountViewController.h"
+#import "ListViewController.h"
 
 @implementation RootViewController
 
@@ -297,15 +293,15 @@
             // Go to list view
             if (indexPath.row < 3) {
                 // Navigation logic may go here. Create and push another view controller.
-                AccountViewController *accountViewController = [[[AccountViewController alloc] init] autorelease];
+                ListViewController *listViewController = [[[ListViewController alloc] init] autorelease];
                 
                 if(indexPath.row == 0) {
-                    accountViewController.datas = _nomList;
-                    accountViewController.index = _nomSelectedIndex;
+                    listViewController.datas = _nomList;
+                    listViewController.index = _nomSelectedIndex;
                 }
                 
                 // Pass the selected object to the new view controller.
-                [self.navigationController pushViewController:accountViewController animated:YES];
+                [self.navigationController pushViewController:listViewController animated:YES];
                 
             } else {
                 // Pull up keyboard
