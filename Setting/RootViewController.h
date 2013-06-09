@@ -12,6 +12,7 @@
 {
     NSMutableArray *_accounts;
     NSMutableArray *_woodTypeList;
+    NSMutableArray *_results;
     NSArray *itemsList;
 
     

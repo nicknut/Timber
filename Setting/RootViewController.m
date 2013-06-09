@@ -10,7 +10,6 @@
 #import "AccountViewController.h"
 #import "AddAccountViewController.h"
 
-
 @implementation RootViewController
 
 
@@ -46,7 +45,7 @@
 {
     [super viewDidLoad];
 
-    self.navigationItem.title = @"Columns";
+    self.navigationItem.title = @"Timber";
     
     [self loadnomDimentionSmall];
     
@@ -56,24 +55,36 @@
                  [NSMutableDictionary dictionaryWithObjectsAndKeys:@"Wood type", @"id", @"guest", @"password", nil],
                  [NSMutableDictionary dictionaryWithObjectsAndKeys:@"Grade", @"id", @"guest", @"password", nil],
                  [NSMutableDictionary dictionaryWithObjectsAndKeys:@"Load Duration Factor", @"id", @"guest", @"password", nil],
-                 nil];
+
+                 [NSMutableDictionary dictionaryWithObjectsAndKeys:@"C sub M", @"id", @"guest", @"password", nil],
+                 [NSMutableDictionary dictionaryWithObjectsAndKeys:@"C of G", @"id", @"guest", @"password", nil],
+               nil];
+    
+    _results = [[NSMutableArray alloc] initWithObjects:
+                [NSMutableDictionary dictionaryWithObjectsAndKeys:@"Result 1", @"id", @"guest", @"password", nil],
+                [NSMutableDictionary dictionaryWithObjectsAndKeys:@"Result 2", @"id", @"guest", @"password", nil],
+                nil];
+    
+    UITapGestureRecognizer *tapRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleSingleTap:)];
+    [tapRecognizer setNumberOfTapsRequired:1];
+    [self.view addGestureRecognizer:tapRecognizer];
 }
 
 - (void) loadnomDimentionSmall
 {
     
-
-NSString *filePath = [[NSBundle mainBundle] pathForResource:@"nomDimentionSmall" ofType:@"csv"];
-if (filePath) {
-    NSString *myText = [NSString stringWithContentsOfFile:filePath];
-    if (myText) {
-        return;
+    
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"nomDimentionSmall" ofType:@"csv"];
+    if (filePath) {
+        NSString *myText = [NSString stringWithContentsOfFile:filePath];
+        if (myText) {
+            return;
+        }
+        NSArray *contentArray = [filePath componentsSeparatedByString:@"\r"];
+        for (NSString *item in contentArray) {
+            NSArray *itemsArray = [item componentsSeparatedByString:@","];
+        }
     }
-    NSArray *contentArray = [filePath componentsSeparatedByString:@"\r"];
-    for (NSString *item in contentArray) {
-        NSArray *itemsArray = [item componentsSeparatedByString:@","];
-    }
-}
 }
 
 - (void)viewDidUnload
@@ -81,6 +92,11 @@ if (filePath) {
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
+}
+
+- (void)handleSingleTap:(UITapGestureRecognizer *)recognizer
+{
+    [self.view endEditing:YES];
 }
 
 - (void)viewWillAppear:(BOOL)animated
@@ -118,7 +134,7 @@ if (filePath) {
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
     // Return the number of sections.
-    return 3;
+    return 2;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
@@ -128,6 +144,9 @@ if (filePath) {
         case 0:
             return [_accounts count];
             break;
+        case 1:
+            return [_results count];
+            break;
     }
     return 0;
 }
@@ -136,7 +155,10 @@ if (filePath) {
 {
     switch (section) {
         case 0:
-            return @"Data:";
+            return @"Column Information:";
+            break;
+        case 1:
+            return @"Results:";
             break;
     }
     return @"";
@@ -157,11 +179,37 @@ if (filePath) {
     int row = [indexPath row];
     switch (section) {
         case 0:
-            cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
-            if (indexPath.row < [_accounts count]) {
-                data = [_accounts objectAtIndex:row];
-                cell.textLabel.text = [data objectForKey:@"id"];
+            if (indexPath.row > 3) {
+                UITextField *textField = [[UITextField alloc] initWithFrame:CGRectMake(0, 0, 200, 21)];
+                textField.placeholder = @"Enter number";
+                textField.tag = 1000+indexPath.row;
+                textField.returnKeyType = UIReturnKeyDone;
+                //textField.delegate = self;
+                textField.keyboardType = UIKeyboardTypeDecimalPad;
+                textField.textAlignment = UITextAlignmentRight;
+                cell.accessoryView = textField;
+                [textField release];
+                
+                cell.selectionStyle = UITableViewCellSelectionStyleNone;
+            } else {
+                cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
             }
+            data = [_accounts objectAtIndex:row];
+            cell.textLabel.text = [data objectForKey:@"id"];
+            break;
+        case 1:
+            if(indexPath.row >= 0) {
+                UILabel *labelField = [[UILabel alloc]initWithFrame:CGRectMake(25, 25, 100, 21)];
+                labelField.text = @"0.00";
+                labelField.tag = 2000+indexPath.row;
+                labelField.textAlignment = UITextAlignmentRight;
+                labelField.BackgroundColor = [UIColor clearColor];
+                cell.accessoryView = labelField;
+                [labelField release];
+            }
+            cell.selectionStyle = UITableViewCellSelectionStyleNone;
+            data = [_results objectAtIndex:row];
+            cell.textLabel.text = [data objectForKey:@"id"];
             break;
     }
     
@@ -215,9 +263,8 @@ if (filePath) {
     int row = [indexPath row];
     switch (section) {
         case 0:
-            
-            if (indexPath.row < [_accounts count]) {
-                
+            // Go to list view
+            if (indexPath.row < 3) {
                 // Navigation logic may go here. Create and push another view controller.
                 AccountViewController *accountViewController = [[[AccountViewController alloc] init] autorelease];
                 accountViewController.datas = _accounts;
@@ -227,19 +274,13 @@ if (filePath) {
                 [self.navigationController pushViewController:accountViewController animated:YES];
                 
             } else {
-                
-                // Navigation logic may go here. Create and push another view controller.
-                AddAccountViewController *addAccountViewController = [[[AddAccountViewController alloc] init] autorelease];
-                addAccountViewController.datas = _accounts;
-                
-                // Pass the selected object to the new view controller.
-                [self.navigationController pushViewController:addAccountViewController animated:YES];
+                // Pull up keyboard
+                UITextField* field =  (UITextField *) [tableView viewWithTag: indexPath.row + 1000];
+                [field becomeFirstResponder];
             }
             break;
     }
 }
-
-
 
 @end
     
