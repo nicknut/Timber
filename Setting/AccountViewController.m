@@ -113,6 +113,9 @@
     }
     NSMutableArray *data = [datas objectAtIndex:row];
     cell.textLabel.text = [data objectAtIndex:0];
+    if(index == row) {
+        cell.selected = TRUE;
+    }
     return cell;
 }
 
@@ -159,8 +162,8 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    int section = [indexPath section];
     int row = [indexPath row];
+    index = row;
     [self.navigationController popViewControllerAnimated:YES];
 }
 

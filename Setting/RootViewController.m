@@ -47,6 +47,7 @@
 
     self.navigationItem.title = @"Timber";
     
+    _nomSelectedIndex = @-1;
     _nomList = [[NSMutableArray alloc] init];
     [self loadnomDimentionSmall];
     [self loadnomDimentionLarge];
@@ -297,8 +298,11 @@
             if (indexPath.row < 3) {
                 // Navigation logic may go here. Create and push another view controller.
                 AccountViewController *accountViewController = [[[AccountViewController alloc] init] autorelease];
-                accountViewController.datas = _nomList;
-                accountViewController.index = row;
+                
+                if(indexPath.row == 0) {
+                    accountViewController.datas = _nomList;
+                    accountViewController.index = _nomSelectedIndex;
+                }
                 
                 // Pass the selected object to the new view controller.
                 [self.navigationController pushViewController:accountViewController animated:YES];
