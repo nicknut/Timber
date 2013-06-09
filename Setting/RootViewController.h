@@ -11,6 +11,7 @@
 @interface RootViewController : UITableViewController
 {
     NSMutableArray *_accounts;
+    NSMutableArray *_results;
     NSArray *itemsList;
    
     

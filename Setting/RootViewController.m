@@ -10,7 +10,6 @@
 #import "AccountViewController.h"
 #import "AddAccountViewController.h"
 
-
 @implementation RootViewController
 
 
@@ -53,9 +52,13 @@
                  [NSMutableDictionary dictionaryWithObjectsAndKeys:@"Wood type", @"id", @"guest", @"password", nil],
                  [NSMutableDictionary dictionaryWithObjectsAndKeys:@"Grade", @"id", @"guest", @"password", nil],
                  [NSMutableDictionary dictionaryWithObjectsAndKeys:@"Load Duration Factor", @"id", @"guest", @"password", nil],
-                 [NSMutableDictionary dictionaryWithObjectsAndKeys:@"C of M", @"id", @"guest", @"password", nil],
+                 [NSMutableDictionary dictionaryWithObjectsAndKeys:@"C sub M", @"id", @"guest", @"password", nil],
                  [NSMutableDictionary dictionaryWithObjectsAndKeys:@"C of G", @"id", @"guest", @"password", nil],
                nil];
+    _results = [[NSMutableArray alloc] initWithObjects:
+                [NSMutableDictionary dictionaryWithObjectsAndKeys:@"Result 1", @"id", @"guest", @"password", nil],
+                [NSMutableDictionary dictionaryWithObjectsAndKeys:@"Result 2", @"id", @"guest", @"password", nil],
+                nil];
     
     UITapGestureRecognizer *tapRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleSingleTap:)];
     [tapRecognizer setNumberOfTapsRequired:1];
@@ -109,7 +112,7 @@
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
     // Return the number of sections.
-    return 3;
+    return 2;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
@@ -118,6 +121,9 @@
     switch (section) {
         case 0:
             return [_accounts count];
+            break;
+        case 1:
+            return [_results count];
             break;
     }
     return 0;
@@ -128,6 +134,9 @@
     switch (section) {
         case 0:
             return @"Column Information:";
+            break;
+        case 1:
+            return @"Results:";
             break;
     }
     return @"";
@@ -164,6 +173,20 @@
                 cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
             }
             data = [_accounts objectAtIndex:row];
+            cell.textLabel.text = [data objectForKey:@"id"];
+            break;
+        case 1:
+            if(indexPath.row >= 0) {
+                UILabel *labelField = [[UILabel alloc]initWithFrame:CGRectMake(25, 25, 100, 21)];
+                labelField.text = @"0.00";
+                labelField.tag = 2000+indexPath.row;
+                labelField.textAlignment = UITextAlignmentRight;
+                labelField.BackgroundColor = [UIColor clearColor];
+                cell.accessoryView = labelField;
+                [labelField release];
+            }
+            cell.selectionStyle = UITableViewCellSelectionStyleNone;
+            data = [_results objectAtIndex:row];
             cell.textLabel.text = [data objectForKey:@"id"];
             break;
     }
