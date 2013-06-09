@@ -11,8 +11,11 @@
 @interface RootViewController : UITableViewController
 {
     NSMutableArray *_accounts;
+    NSMutableArray *_woodTypeList;
     NSArray *itemsList;
-   
+
+    
+
     
     
 }

@@ -17,6 +17,8 @@
 		54351BB41613DE6500620BAB /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54351BB31613DE6500620BAB /* RootViewController.m */; };
 		54CC7D441614BF7100B9865C /* AccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54CC7D431614BF7100B9865C /* AccountViewController.m */; };
 		54CC7D501614E59E00B9865C /* AddAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54CC7D4F1614E59E00B9865C /* AddAccountViewController.m */; };
+		83C5FDB1176417C500ECA9B5 /* nomDimentionLarge.csv in Resources */ = {isa = PBXBuildFile; fileRef = 83C5FDAF176417C500ECA9B5 /* nomDimentionLarge.csv */; };
+		83C5FDB2176417C500ECA9B5 /* nomDimentionSmall.csv in Resources */ = {isa = PBXBuildFile; fileRef = 83C5FDB0176417C500ECA9B5 /* nomDimentionSmall.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		54CC7D431614BF7100B9865C /* AccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountViewController.m; sourceTree = "<group>"; };
 		54CC7D4E1614E59E00B9865C /* AddAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddAccountViewController.h; sourceTree = "<group>"; };
 		54CC7D4F1614E59E00B9865C /* AddAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddAccountViewController.m; sourceTree = "<group>"; };
+		83C5FDAF176417C500ECA9B5 /* nomDimentionLarge.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = nomDimentionLarge.csv; path = ../../../Documents/nomDimentionLarge.csv; sourceTree = "<group>"; };
+		83C5FDB0176417C500ECA9B5 /* nomDimentionSmall.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = nomDimentionSmall.csv; path = ../../../Documents/nomDimentionSmall.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +92,8 @@
 				54351BB21613DE6500620BAB /* RootViewController.h */,
 				54351BB31613DE6500620BAB /* RootViewController.m */,
 				54CC7D421614BF7100B9865C /* AccountViewController.h */,
+				83C5FDAF176417C500ECA9B5 /* nomDimentionLarge.csv */,
+				83C5FDB0176417C500ECA9B5 /* nomDimentionSmall.csv */,
 				54CC7D431614BF7100B9865C /* AccountViewController.m */,
 				54CC7D4E1614E59E00B9865C /* AddAccountViewController.h */,
 				54CC7D4F1614E59E00B9865C /* AddAccountViewController.m */,
@@ -161,6 +167,8 @@
 			files = (
 				54351BA61613DE2700620BAB /* InfoPlist.strings in Resources */,
 				5427E134169523910035DC3C /* Default-568h@2x.png in Resources */,
+				83C5FDB1176417C500ECA9B5 /* nomDimentionLarge.csv in Resources */,
+				83C5FDB2176417C500ECA9B5 /* nomDimentionSmall.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

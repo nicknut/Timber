@@ -75,10 +75,8 @@
 {
     [super viewDidLoad];
     
-    // タイトル
     self.navigationItem.title = @"アカウントを追加";
     
-    // テキストフィールド作成
     idTextField = [[UITextField alloc] initWithFrame:CGRectZero];
     idTextField.font = [UIFont systemFontOfSize:18.0];
     idTextField.textAlignment = UITextAlignmentLeft;
@@ -166,28 +164,28 @@
     // Configure the cell...
     switch (section) {
         case 0:
-            // アカウント入力グループ
+
             cell.selectionStyle = UITableViewCellSelectionStyleNone;
             switch (row) {
                 case 0:
-                    cell.textLabel.text = @"ユーザ名";
+                    cell.textLabel.text = @"One";
                     idTextField.frame = CGRectMake(120, 0, cell.frame.size.width - 140, cell.frame.size.height);
-                    idTextField.placeholder = @"名前";
+                    idTextField.placeholder = @"Two";
                     cell.accessoryView = idTextField;
                     break;
                 case 1:
-                    cell.textLabel.text = @"パスワード";
+                    cell.textLabel.text = @"Three";
                     passwordTextField.frame = CGRectMake(120, 0, cell.frame.size.width - 140, cell.frame.size.height);
-                    passwordTextField.placeholder = @"必須";
+                    passwordTextField.placeholder = @"Four";
                     cell.accessoryView = passwordTextField;
                     break;
             }
             break;
         case 1:
-            // サインイン
+            
             signinCell = cell;
             cell.textLabel.textAlignment = UITextAlignmentCenter;
-            cell.textLabel.text = @"サインイン";
+            cell.textLabel.text = @"blah";
             [self respondsToEditingChanged:nil];
             break;
         default:
@@ -250,17 +248,19 @@
                     [tableView deselectRowAtIndexPath:indexPath animated:YES];
                     
                     if (indicatorView == nil) {
-                        // インジケーター作成
+                        
+ 
                         indicatorView = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhite];
                     }
                     
                     if (titleView == nil) {
-                        // タイトルビュー作成
+                        
+ 
                         UILabel *titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(indicatorView.bounds.size.width + 7, -2, 0, 0)];
                         titleLabel.backgroundColor = [UIColor clearColor];
                         titleLabel.textColor = [UIColor whiteColor];
                         titleLabel.font = [UIFont boldSystemFontOfSize:20];
-                        titleLabel.text = @"確認中";
+                        titleLabel.text = @"blah";
                         [titleLabel sizeToFit];
                         
                         titleView = [[UIView alloc] init];
@@ -269,17 +269,17 @@
                         titleView.frame = CGRectMake(0, 0, titleLabel.bounds.size.width + 7 + titleLabel.bounds.size.width, indicatorView.bounds.size.height);
                         [titleLabel release];
                     }
+ 
                     
-                    // タイトル
                     [self.navigationItem setTitleView:titleView];
                     [indicatorView startAnimating];
                     
-                    // 全ての選択を無効
+
                     [self.tableView setAllowsSelection:NO];
                     [idTextField setEnabled:NO];
                     [passwordTextField setEnabled:NO];
                     
-                    // 遅延実行
+
                     [self performSelector:@selector(singingSuccess) withObject:nil afterDelay:5.0];
                     break;
             }

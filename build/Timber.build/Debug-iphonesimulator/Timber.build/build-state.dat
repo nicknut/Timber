@@ -4,15 +4,17 @@ r1
 cCheck dependencies
 cProcessInfoPlistFile /Users/nicknutter/Sites/Timber/build/Debug-iphonesimulator/Timber.app/Info.plist Setting/Timber-Info.plist
 cProcessPCH /var/folders/xp/k2p9yv813zv4mbpnk1q6dr740000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Timber-Prefix-bitqmoltztbqvtffolpacqbalxpx/Timber-Prefix.pch.pth Setting/Timber-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/Timber.build/Debug-iphonesimulator/Timber.build/Objects-normal/i386/AppDelegate.o /Users/nicknutter/Sites/Timber/Setting/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/Timber.build/Debug-iphonesimulator/Timber.build/Objects-normal/i386/RootViewController.o /Users/nicknutter/Sites/Timber/Setting/RootViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/Timber.build/Debug-iphonesimulator/Timber.build/Objects-normal/i386/AccountViewController.o /Users/nicknutter/Sites/Timber/Setting/AccountViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/Timber.build/Debug-iphonesimulator/Timber.build/Objects-normal/i386/AddAccountViewController.o /Users/nicknutter/Sites/Timber/Setting/AddAccountViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Timber.build/Debug-iphonesimulator/Timber.build/Objects-normal/i386/AppDelegate.o /Users/nicknutter/Sites/Timber/Setting/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/Timber.build/Debug-iphonesimulator/Timber.build/Objects-normal/i386/main.o /Users/nicknutter/Sites/Timber/Setting/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Timber.build/Debug-iphonesimulator/Timber.build/Objects-normal/i386/RootViewController.o /Users/nicknutter/Sites/Timber/Setting/RootViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cLd /Users/nicknutter/Sites/Timber/build/Debug-iphonesimulator/Timber.app/Timber normal i386
 cGenerateDSYMFile /Users/nicknutter/Sites/Timber/build/Debug-iphonesimulator/Timber.app.dSYM /Users/nicknutter/Sites/Timber/build/Debug-iphonesimulator/Timber.app/Timber
 cCopyStringsFile /Users/nicknutter/Sites/Timber/build/Debug-iphonesimulator/Timber.app/en.lproj/InfoPlist.strings Setting/en.lproj/InfoPlist.strings
 cCpResource Setting/../Default-568h@2x.png build/Debug-iphonesimulator/Timber.app/Default-568h@2x.png
+cCpResource Setting/../../../Documents/nomDimentionSmall.csv build/Debug-iphonesimulator/Timber.app/nomDimentionSmall.csv
+cCpResource Setting/../../../Documents/nomDimentionLarge.csv build/Debug-iphonesimulator/Timber.app/nomDimentionLarge.csv
 cTouch /Users/nicknutter/Sites/Timber/build/Debug-iphonesimulator/Timber.app
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk
@@ -35,6 +37,16 @@ c00000000516B952B0000000000AB6230
 t1366005035
 s11231792
 
+N/Users/nicknutter/Sites/Timber/Setting/../../../Documents/nomDimentionLarge.csv
+c0000000051B372080000000000000502
+t1370714632
+s1282
+
+N/Users/nicknutter/Sites/Timber/Setting/../../../Documents/nomDimentionSmall.csv
+c0000000051B371E000000000000001F7
+t1370714592
+s503
+
 N/Users/nicknutter/Sites/Timber/Setting/../Default-568h@2x.png
 c0000000051B39A5200000000000048A2
 t1370724946
@@ -46,9 +58,9 @@ t1370724946
 s463
 
 N/Users/nicknutter/Sites/Timber/Setting/AccountViewController.m
-c0000000051B39A520000000000001E99
-t1370724946
-s7833
+c0000000051B3F0CB0000000000001D2A
+t1370747083
+s7466
 
 N/Users/nicknutter/Sites/Timber/Setting/AddAccountViewController.h
 c0000000051B39A5200000000000001E0
@@ -56,9 +68,9 @@ t1370724946
 s480
 
 N/Users/nicknutter/Sites/Timber/Setting/AddAccountViewController.m
-c0000000051B3D2140000000000002695
-t1370739220
-s9877
+c0000000051B3FAD20000000000002542
+t1370749650
+s9538
 
 N/Users/nicknutter/Sites/Timber/Setting/AppDelegate.h
 c0000000051B39A52000000000000016C
@@ -71,14 +83,14 @@ t1370724946
 s2820
 
 N/Users/nicknutter/Sites/Timber/Setting/RootViewController.h
-c0000000051B3DC3B000000000000013A
-t1370741819
-s314
+c0000000051B4E0BA0000000000000160
+t1370808506
+s352
 
 N/Users/nicknutter/Sites/Timber/Setting/RootViewController.m
-c0000000051B3DC3B0000000000001A1C
-t1370741819
-s6684
+c0000000051B4E1750000000000001B53
+t1370808693
+s6995
 
 N/Users/nicknutter/Sites/Timber/Setting/Timber-Prefix.pch
 c0000000051B39A52000000000000013D
@@ -96,11 +108,11 @@ t1370724946
 s347
 
 N/Users/nicknutter/Sites/Timber/build/Debug-iphonesimulator/Timber.app
-t1370740672
-s238
+t1370808693
+s306
 
 N/Users/nicknutter/Sites/Timber/build/Debug-iphonesimulator/Timber.app.dSYM
-t1370740672
+t1370808693
 s102
 
 N/Users/nicknutter/Sites/Timber/build/Debug-iphonesimulator/Timber.app/Default-568h@2x.png
@@ -116,28 +128,36 @@ t1370734448
 s8
 
 N/Users/nicknutter/Sites/Timber/build/Debug-iphonesimulator/Timber.app/Timber
-t1370740672
-s65120
+t1370808693
+s60424
 
 N/Users/nicknutter/Sites/Timber/build/Debug-iphonesimulator/Timber.app/en.lproj/InfoPlist.strings
 t1370734449
 s42
 
+N/Users/nicknutter/Sites/Timber/build/Debug-iphonesimulator/Timber.app/nomDimentionLarge.csv
+t1370743010
+s1282
+
+N/Users/nicknutter/Sites/Timber/build/Debug-iphonesimulator/Timber.app/nomDimentionSmall.csv
+t1370743010
+s503
+
 N/Users/nicknutter/Sites/Timber/build/Timber.build/Debug-iphonesimulator/Timber.build/Objects-normal/i386/AccountViewController.o
-t1370734449
-s99900
+t1370747083
+s88772
 
 N/Users/nicknutter/Sites/Timber/build/Timber.build/Debug-iphonesimulator/Timber.build/Objects-normal/i386/AddAccountViewController.o
-t1370739221
-s90612
+t1370749652
+s90592
 
 N/Users/nicknutter/Sites/Timber/build/Timber.build/Debug-iphonesimulator/Timber.build/Objects-normal/i386/AppDelegate.o
-t1370740671
-s92264
+t1370808506
+s92240
 
 N/Users/nicknutter/Sites/Timber/build/Timber.build/Debug-iphonesimulator/Timber.build/Objects-normal/i386/RootViewController.o
-t1370740671
-s83848
+t1370808693
+s86168
 
 N/Users/nicknutter/Sites/Timber/build/Timber.build/Debug-iphonesimulator/Timber.build/Objects-normal/i386/Timber.LinkFileList
 c0000000051B3BF70000000000000026A
@@ -179,11 +199,11 @@ r0
 
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies271171bb1364b741^f4367abb1364b741^---0#1#0#--18"Check dependencies36"69DA59FC-0ABD-4640-9102-8A058DEA49FB-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies1a1796fd1965b741^574396fd1965b741^---0#1#0#--18"Check dependencies36"519488E3-D150-496C-951F-440FCCF5F1B5-
 
 CCompileC build/Timber.build/Debug-iphonesimulator/Timber.build/Objects-normal/i386/AccountViewController.o /Users/nicknutter/Sites/Timber/Setting/AccountViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s392427249.226042
-e392427249.349688
+s392439883.303594
+e392439883.495171
 r1
 xCompileC
 xbuild/Timber.build/Debug-iphonesimulator/Timber.build/Objects-normal/i386/AccountViewController.o
@@ -192,11 +212,15 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/nicknutter/Sites/Timber/Setting/AccountViewController.m32023af1f663b741^f58459f1f663b741^---0#0#0#-19%DVTDocumentLocation2@78"file://localhost/Users/nicknutter/Sites/Timber/Setting/AccountViewController.m0000000000000000^3339"CompileC build/Timber.build/Debug-iphonesimulator/Timber.build/Objects-normal/i386/AccountViewController.o Setting/AccountViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nicknutter/Sites/Timber    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.1 -iquote /Users/nicknutter/Sites/Timber/build/Timber.build/Debug-iphonesimulator/Timber.build/Timber-generated-files.hmap -I/Users/nicknutter/Sites/Timber/build/Timber.build/Debug-iphonesimulator/Timber.build/Timber-own-target-headers.hmap -I/Users/nicknutter/Sites/Timber/build/Timber.build/Debug-iphonesimulator/Timber.build/Timber-all-target-headers.hmap -iquote /Users/nicknutter/Sites/Timber/build/Timber.build/Debug-iphonesimulator/Timber.build/Timber-project-headers.hmap -I/Users/nicknutter/Sites/Timber/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/nicknutter/Sites/Timber/build/Timber.build/Debug-iphonesimulator/Timber.build/DerivedSources/i386 -I/Users/nicknutter/Sites/Timber/build/Timber.build/Debug-iphonesimulator/Timber.build/DerivedSources -F/Users/nicknutter/Sites/Timber/build/Debug-iphonesimulator -include /var/folders/xp/k2p9yv813zv4mbpnk1q6dr740000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Timber-Prefix-bitqmoltztbqvtffolpacqbalxpx/Timber-Prefix.pch -MMD -MT dependencies -MF /Users/nicknutter/Sites/Timber/build/Timber.build/Debug-iphonesimulator/Timber.build/Objects-normal/i386/AccountViewController.d --serialize-diagnostics /Users/nicknutter/Sites/Timber/build/Timber.build/Debug-iphonesimulator/Timber.build/Objects-normal/i386/AccountViewController.dia -c /Users/nicknutter/Sites/Timber/Setting/AccountViewController.m -o /Users/nicknutter/Sites/Timber/build/Timber.build/Debug-iphonesimulator/Timber.build/Objects-normal/i386/AccountViewController.o36"526DDBB2-AC31-4380-86EC-9B22BAFC3CFC-
+o/Users/nicknutter/Sites/Timber/Setting/AccountViewController.m:158:9: warning: unused variable 'row' [-Wunused-variable]
+o    int row = [indexPath row];
+o        ^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/nicknutter/Sites/Timber/Setting/AccountViewController.m5bce4d4b2864b741^f3c97e4b2864b741^-183"/Users/nicknutter/Sites/Timber/Setting/AccountViewController.m:158:9: warning: unused variable 'row' [-Wunused-variable]    int row = [indexPath row];        ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@21"Unused variable 'row'-392439883#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@78"file://localhost/Users/nicknutter/Sites/Timber/Setting/AccountViewController.m0000000000000000^157#8#157#8#4633#0#19"Unused Entity Issue--0#0#0#-19%DVTDocumentLocation4@78"file://localhost/Users/nicknutter/Sites/Timber/Setting/AccountViewController.m0000000000000000^3339"CompileC build/Timber.build/Debug-iphonesimulator/Timber.build/Objects-normal/i386/AccountViewController.o Setting/AccountViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nicknutter/Sites/Timber    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.1 -iquote /Users/nicknutter/Sites/Timber/build/Timber.build/Debug-iphonesimulator/Timber.build/Timber-generated-files.hmap -I/Users/nicknutter/Sites/Timber/build/Timber.build/Debug-iphonesimulator/Timber.build/Timber-own-target-headers.hmap -I/Users/nicknutter/Sites/Timber/build/Timber.build/Debug-iphonesimulator/Timber.build/Timber-all-target-headers.hmap -iquote /Users/nicknutter/Sites/Timber/build/Timber.build/Debug-iphonesimulator/Timber.build/Timber-project-headers.hmap -I/Users/nicknutter/Sites/Timber/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/nicknutter/Sites/Timber/build/Timber.build/Debug-iphonesimulator/Timber.build/DerivedSources/i386 -I/Users/nicknutter/Sites/Timber/build/Timber.build/Debug-iphonesimulator/Timber.build/DerivedSources -F/Users/nicknutter/Sites/Timber/build/Debug-iphonesimulator -include /var/folders/xp/k2p9yv813zv4mbpnk1q6dr740000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Timber-Prefix-bitqmoltztbqvtffolpacqbalxpx/Timber-Prefix.pch -MMD -MT dependencies -MF /Users/nicknutter/Sites/Timber/build/Timber.build/Debug-iphonesimulator/Timber.build/Objects-normal/i386/AccountViewController.d --serialize-diagnostics /Users/nicknutter/Sites/Timber/build/Timber.build/Debug-iphonesimulator/Timber.build/Objects-normal/i386/AccountViewController.dia -c /Users/nicknutter/Sites/Timber/Setting/AccountViewController.m -o /Users/nicknutter/Sites/Timber/build/Timber.build/Debug-iphonesimulator/Timber.build/Objects-normal/i386/AccountViewController.o36"78D25110-2AAB-4696-9269-9D5756072D23-
 
 CCompileC build/Timber.build/Debug-iphonesimulator/Timber.build/Objects-normal/i386/AddAccountViewController.o /Users/nicknutter/Sites/Timber/Setting/AddAccountViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s392432020.555245
-e392432021.191137
+s392442451.051963
+e392442452.292062
 r1
 xCompileC
 xbuild/Timber.build/Debug-iphonesimulator/Timber.build/Objects-normal/i386/AddAccountViewController.o
@@ -205,11 +229,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Users/nicknutter/Sites/Timber/Setting/AddAccountViewController.m643c8e940964b741^81ed30950964b741^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/nicknutter/Sites/Timber/Setting/AddAccountViewController.m0000000000000000^3357"CompileC build/Timber.build/Debug-iphonesimulator/Timber.build/Objects-normal/i386/AddAccountViewController.o Setting/AddAccountViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nicknutter/Sites/Timber    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.1 -iquote /Users/nicknutter/Sites/Timber/build/Timber.build/Debug-iphonesimulator/Timber.build/Timber-generated-files.hmap -I/Users/nicknutter/Sites/Timber/build/Timber.build/Debug-iphonesimulator/Timber.build/Timber-own-target-headers.hmap -I/Users/nicknutter/Sites/Timber/build/Timber.build/Debug-iphonesimulator/Timber.build/Timber-all-target-headers.hmap -iquote /Users/nicknutter/Sites/Timber/build/Timber.build/Debug-iphonesimulator/Timber.build/Timber-project-headers.hmap -I/Users/nicknutter/Sites/Timber/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/nicknutter/Sites/Timber/build/Timber.build/Debug-iphonesimulator/Timber.build/DerivedSources/i386 -I/Users/nicknutter/Sites/Timber/build/Timber.build/Debug-iphonesimulator/Timber.build/DerivedSources -F/Users/nicknutter/Sites/Timber/build/Debug-iphonesimulator -include /var/folders/xp/k2p9yv813zv4mbpnk1q6dr740000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Timber-Prefix-bitqmoltztbqvtffolpacqbalxpx/Timber-Prefix.pch -MMD -MT dependencies -MF /Users/nicknutter/Sites/Timber/build/Timber.build/Debug-iphonesimulator/Timber.build/Objects-normal/i386/AddAccountViewController.d --serialize-diagnostics /Users/nicknutter/Sites/Timber/build/Timber.build/Debug-iphonesimulator/Timber.build/Objects-normal/i386/AddAccountViewController.dia -c /Users/nicknutter/Sites/Timber/Setting/AddAccountViewController.m -o /Users/nicknutter/Sites/Timber/build/Timber.build/Debug-iphonesimulator/Timber.build/Objects-normal/i386/AddAccountViewController.o36"8DEFC51E-C664-42C9-B456-F0F057901AAE-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Users/nicknutter/Sites/Timber/Setting/AddAccountViewController.m99670d533264b741^93c44a543264b741^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/nicknutter/Sites/Timber/Setting/AddAccountViewController.m0000000000000000^3357"CompileC build/Timber.build/Debug-iphonesimulator/Timber.build/Objects-normal/i386/AddAccountViewController.o Setting/AddAccountViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nicknutter/Sites/Timber    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.1 -iquote /Users/nicknutter/Sites/Timber/build/Timber.build/Debug-iphonesimulator/Timber.build/Timber-generated-files.hmap -I/Users/nicknutter/Sites/Timber/build/Timber.build/Debug-iphonesimulator/Timber.build/Timber-own-target-headers.hmap -I/Users/nicknutter/Sites/Timber/build/Timber.build/Debug-iphonesimulator/Timber.build/Timber-all-target-headers.hmap -iquote /Users/nicknutter/Sites/Timber/build/Timber.build/Debug-iphonesimulator/Timber.build/Timber-project-headers.hmap -I/Users/nicknutter/Sites/Timber/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/nicknutter/Sites/Timber/build/Timber.build/Debug-iphonesimulator/Timber.build/DerivedSources/i386 -I/Users/nicknutter/Sites/Timber/build/Timber.build/Debug-iphonesimulator/Timber.build/DerivedSources -F/Users/nicknutter/Sites/Timber/build/Debug-iphonesimulator -include /var/folders/xp/k2p9yv813zv4mbpnk1q6dr740000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Timber-Prefix-bitqmoltztbqvtffolpacqbalxpx/Timber-Prefix.pch -MMD -MT dependencies -MF /Users/nicknutter/Sites/Timber/build/Timber.build/Debug-iphonesimulator/Timber.build/Objects-normal/i386/AddAccountViewController.d --serialize-diagnostics /Users/nicknutter/Sites/Timber/build/Timber.build/Debug-iphonesimulator/Timber.build/Objects-normal/i386/AddAccountViewController.dia -c /Users/nicknutter/Sites/Timber/Setting/AddAccountViewController.m -o /Users/nicknutter/Sites/Timber/build/Timber.build/Debug-iphonesimulator/Timber.build/Objects-normal/i386/AddAccountViewController.o36"8AF6DC4D-3A7E-476F-A348-EFF6C551C963-
 
 CCompileC build/Timber.build/Debug-iphonesimulator/Timber.build/Objects-normal/i386/AppDelegate.o /Users/nicknutter/Sites/Timber/Setting/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s392434619.502377
-e392434621.422132
+s392501306.586506
+e392501306.649831
 r1
 xCompileC
 xbuild/Timber.build/Debug-iphonesimulator/Timber.build/Objects-normal/i386/AppDelegate.o
@@ -218,11 +242,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Compile /Users/nicknutter/Sites/Timber/Setting/AppDelegate.m10b280bb1364b741^95106cbd1364b741^---0#0#0#-19%DVTDocumentLocation2@68"file://localhost/Users/nicknutter/Sites/Timber/Setting/AppDelegate.m0000000000000000^3279"CompileC build/Timber.build/Debug-iphonesimulator/Timber.build/Objects-normal/i386/AppDelegate.o Setting/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nicknutter/Sites/Timber    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.1 -iquote /Users/nicknutter/Sites/Timber/build/Timber.build/Debug-iphonesimulator/Timber.build/Timber-generated-files.hmap -I/Users/nicknutter/Sites/Timber/build/Timber.build/Debug-iphonesimulator/Timber.build/Timber-own-target-headers.hmap -I/Users/nicknutter/Sites/Timber/build/Timber.build/Debug-iphonesimulator/Timber.build/Timber-all-target-headers.hmap -iquote /Users/nicknutter/Sites/Timber/build/Timber.build/Debug-iphonesimulator/Timber.build/Timber-project-headers.hmap -I/Users/nicknutter/Sites/Timber/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/nicknutter/Sites/Timber/build/Timber.build/Debug-iphonesimulator/Timber.build/DerivedSources/i386 -I/Users/nicknutter/Sites/Timber/build/Timber.build/Debug-iphonesimulator/Timber.build/DerivedSources -F/Users/nicknutter/Sites/Timber/build/Debug-iphonesimulator -include /var/folders/xp/k2p9yv813zv4mbpnk1q6dr740000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Timber-Prefix-bitqmoltztbqvtffolpacqbalxpx/Timber-Prefix.pch -MMD -MT dependencies -MF /Users/nicknutter/Sites/Timber/build/Timber.build/Debug-iphonesimulator/Timber.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/nicknutter/Sites/Timber/build/Timber.build/Debug-iphonesimulator/Timber.build/Objects-normal/i386/AppDelegate.dia -c /Users/nicknutter/Sites/Timber/Setting/AppDelegate.m -o /Users/nicknutter/Sites/Timber/build/Timber.build/Debug-iphonesimulator/Timber.build/Objects-normal/i386/AppDelegate.o36"9EFEBB66-107A-45FA-870A-0B12EE2333D7-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Compile /Users/nicknutter/Sites/Timber/Setting/AppDelegate.m3f73963a1865b741^1c60a63a1865b741^---0#0#0#-19%DVTDocumentLocation2@68"file://localhost/Users/nicknutter/Sites/Timber/Setting/AppDelegate.m0000000000000000^3279"CompileC build/Timber.build/Debug-iphonesimulator/Timber.build/Objects-normal/i386/AppDelegate.o Setting/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nicknutter/Sites/Timber    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.1 -iquote /Users/nicknutter/Sites/Timber/build/Timber.build/Debug-iphonesimulator/Timber.build/Timber-generated-files.hmap -I/Users/nicknutter/Sites/Timber/build/Timber.build/Debug-iphonesimulator/Timber.build/Timber-own-target-headers.hmap -I/Users/nicknutter/Sites/Timber/build/Timber.build/Debug-iphonesimulator/Timber.build/Timber-all-target-headers.hmap -iquote /Users/nicknutter/Sites/Timber/build/Timber.build/Debug-iphonesimulator/Timber.build/Timber-project-headers.hmap -I/Users/nicknutter/Sites/Timber/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/nicknutter/Sites/Timber/build/Timber.build/Debug-iphonesimulator/Timber.build/DerivedSources/i386 -I/Users/nicknutter/Sites/Timber/build/Timber.build/Debug-iphonesimulator/Timber.build/DerivedSources -F/Users/nicknutter/Sites/Timber/build/Debug-iphonesimulator -include /var/folders/xp/k2p9yv813zv4mbpnk1q6dr740000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Timber-Prefix-bitqmoltztbqvtffolpacqbalxpx/Timber-Prefix.pch -MMD -MT dependencies -MF /Users/nicknutter/Sites/Timber/build/Timber.build/Debug-iphonesimulator/Timber.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/nicknutter/Sites/Timber/build/Timber.build/Debug-iphonesimulator/Timber.build/Objects-normal/i386/AppDelegate.dia -c /Users/nicknutter/Sites/Timber/Setting/AppDelegate.m -o /Users/nicknutter/Sites/Timber/build/Timber.build/Debug-iphonesimulator/Timber.build/Objects-normal/i386/AppDelegate.o36"EA903359-1C05-479E-9AAA-4B59197C1DB7-
 
 CCompileC build/Timber.build/Debug-iphonesimulator/Timber.build/Objects-normal/i386/RootViewController.o /Users/nicknutter/Sites/Timber/Setting/RootViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s392434619.502379
-e392434621.498600
+s392501493.155065
+e392501493.222201
 r1
 xCompileC
 xbuild/Timber.build/Debug-iphonesimulator/Timber.build/Objects-normal/i386/RootViewController.o
@@ -231,7 +255,17 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/nicknutter/Sites/Timber/Setting/RootViewController.m1cb380bb1364b741^caa37fbd1364b741^---0#0#0#-19%DVTDocumentLocation2@75"file://localhost/Users/nicknutter/Sites/Timber/Setting/RootViewController.m0000000000000000^3321"CompileC build/Timber.build/Debug-iphonesimulator/Timber.build/Objects-normal/i386/RootViewController.o Setting/RootViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nicknutter/Sites/Timber    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.1 -iquote /Users/nicknutter/Sites/Timber/build/Timber.build/Debug-iphonesimulator/Timber.build/Timber-generated-files.hmap -I/Users/nicknutter/Sites/Timber/build/Timber.build/Debug-iphonesimulator/Timber.build/Timber-own-target-headers.hmap -I/Users/nicknutter/Sites/Timber/build/Timber.build/Debug-iphonesimulator/Timber.build/Timber-all-target-headers.hmap -iquote /Users/nicknutter/Sites/Timber/build/Timber.build/Debug-iphonesimulator/Timber.build/Timber-project-headers.hmap -I/Users/nicknutter/Sites/Timber/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/nicknutter/Sites/Timber/build/Timber.build/Debug-iphonesimulator/Timber.build/DerivedSources/i386 -I/Users/nicknutter/Sites/Timber/build/Timber.build/Debug-iphonesimulator/Timber.build/DerivedSources -F/Users/nicknutter/Sites/Timber/build/Debug-iphonesimulator -include /var/folders/xp/k2p9yv813zv4mbpnk1q6dr740000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Timber-Prefix-bitqmoltztbqvtffolpacqbalxpx/Timber-Prefix.pch -MMD -MT dependencies -MF /Users/nicknutter/Sites/Timber/build/Timber.build/Debug-iphonesimulator/Timber.build/Objects-normal/i386/RootViewController.d --serialize-diagnostics /Users/nicknutter/Sites/Timber/build/Timber.build/Debug-iphonesimulator/Timber.build/Objects-normal/i386/RootViewController.dia -c /Users/nicknutter/Sites/Timber/Setting/RootViewController.m -o /Users/nicknutter/Sites/Timber/build/Timber.build/Debug-iphonesimulator/Timber.build/Objects-normal/i386/RootViewController.o36"C55F779C-78FD-4671-835A-564DEFC16B37-
+o/Users/nicknutter/Sites/Timber/Setting/RootViewController.m:68:25: warning: 'stringWithContentsOfFile:' is deprecated: first deprecated in iOS 2.0 [-Wdeprecated-declarations]
+o    NSString *myText = [NSString stringWithContentsOfFile:filePath];
+o                        ^
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:356:1: note: method 'stringWithContentsOfFile:' declared here
+o+ (id)stringWithContentsOfFile:(NSString *)path NS_DEPRECATED(10_0, 10_4, 2_0, 2_0);
+o^
+o/Users/nicknutter/Sites/Timber/Setting/RootViewController.m:74:18: warning: unused variable 'itemsArray' [-Wunused-variable]
+o        NSArray *itemsArray = [item componentsSeparatedByString:@","];
+o                 ^
+o2 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/nicknutter/Sites/Timber/Setting/RootViewController.m96ce27f51865b741^2fe138f51865b741^-838"/Users/nicknutter/Sites/Timber/Setting/RootViewController.m:68:25: warning: 'stringWithContentsOfFile:' is deprecated: first deprecated in iOS 2.0 [-Wdeprecated-declarations]    NSString *myText = [NSString stringWithContentsOfFile:filePath];                        ^/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:356:1: note: method 'stringWithContentsOfFile:' declared here+ (id)stringWithContentsOfFile:(NSString *)path NS_DEPRECATED(10_0, 10_4, 2_0, 2_0);^/Users/nicknutter/Sites/Timber/Setting/RootViewController.m:74:18: warning: unused variable 'itemsArray' [-Wunused-variable]        NSArray *itemsArray = [item componentsSeparatedByString:@","];                 ^2 warnings generated.2(36%IDEClangDiagnosticActivityLogMessage2@70"'stringWithContentsOfFile:' is deprecated: first deprecated in iOS 2.0-392501493#18446744073709551615#0#1(2@48"Method 'stringWithContentsOfFile:' declared here-392501493#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@197"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h0000000000000000^355#0#355#0#24386#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@75"file://localhost/Users/nicknutter/Sites/Timber/Setting/RootViewController.m0000000000000000^67#24#67#24#1745#0#12"Deprecations--2@28"Unused variable 'itemsArray'-392501493#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@75"file://localhost/Users/nicknutter/Sites/Timber/Setting/RootViewController.m0000000000000000^73#17#73#17#1964#0#19"Unused Entity Issue--0#0#0#-19%DVTDocumentLocation4@75"file://localhost/Users/nicknutter/Sites/Timber/Setting/RootViewController.m0000000000000000^3321"CompileC build/Timber.build/Debug-iphonesimulator/Timber.build/Objects-normal/i386/RootViewController.o Setting/RootViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nicknutter/Sites/Timber    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.1 -iquote /Users/nicknutter/Sites/Timber/build/Timber.build/Debug-iphonesimulator/Timber.build/Timber-generated-files.hmap -I/Users/nicknutter/Sites/Timber/build/Timber.build/Debug-iphonesimulator/Timber.build/Timber-own-target-headers.hmap -I/Users/nicknutter/Sites/Timber/build/Timber.build/Debug-iphonesimulator/Timber.build/Timber-all-target-headers.hmap -iquote /Users/nicknutter/Sites/Timber/build/Timber.build/Debug-iphonesimulator/Timber.build/Timber-project-headers.hmap -I/Users/nicknutter/Sites/Timber/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/nicknutter/Sites/Timber/build/Timber.build/Debug-iphonesimulator/Timber.build/DerivedSources/i386 -I/Users/nicknutter/Sites/Timber/build/Timber.build/Debug-iphonesimulator/Timber.build/DerivedSources -F/Users/nicknutter/Sites/Timber/build/Debug-iphonesimulator -include /var/folders/xp/k2p9yv813zv4mbpnk1q6dr740000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Timber-Prefix-bitqmoltztbqvtffolpacqbalxpx/Timber-Prefix.pch -MMD -MT dependencies -MF /Users/nicknutter/Sites/Timber/build/Timber.build/Debug-iphonesimulator/Timber.build/Objects-normal/i386/RootViewController.d --serialize-diagnostics /Users/nicknutter/Sites/Timber/build/Timber.build/Debug-iphonesimulator/Timber.build/Objects-normal/i386/RootViewController.dia -c /Users/nicknutter/Sites/Timber/Setting/RootViewController.m -o /Users/nicknutter/Sites/Timber/build/Timber.build/Debug-iphonesimulator/Timber.build/Objects-normal/i386/RootViewController.o36"7BBC6805-F2DB-4AD1-8726-71FD1645E491-
 
 CCompileC build/Timber.build/Debug-iphonesimulator/Timber.build/Objects-normal/i386/main.o /Users/nicknutter/Sites/Timber/Setting/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s392427249.226093
@@ -255,6 +289,24 @@ x/Users/nicknutter/Sites/Timber/build/Debug-iphonesimulator/Timber.app/en.lproj/
 xSetting/en.lproj/InfoPlist.strings
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Copy Setting/en.lproj/InfoPlist.strings0f48f2f1f663b741^b9e2f2f1f663b741^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/nicknutter/Sites/Timber/Setting/en.lproj/InfoPlist.strings0000000000000000^557"CopyStringsFile build/Debug-iphonesimulator/Timber.app/en.lproj/InfoPlist.strings Setting/en.lproj/InfoPlist.strings    cd /Users/nicknutter/Sites/Timber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/nicknutter/Sites/Timber/build/Debug-iphonesimulator/Timber.app/en.lproj -- Setting/en.lproj/InfoPlist.strings36"6B11FB85-E4CA-4490-B39D-7B5F7D1DF1D1-
 
+CCpResource Setting/../../../Documents/nomDimentionLarge.csv build/Debug-iphonesimulator/Timber.app/nomDimentionLarge.csv
+s392435810.259074
+e392435810.298108
+r1
+xCpResource
+xSetting/../../../Documents/nomDimentionLarge.csv
+xbuild/Debug-iphonesimulator/Timber.app/nomDimentionLarge.csv
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy build/Debug-iphonesimulator/Timber.app/nomDimentionLarge.csv736342621864b741^9c504c621864b741^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/nicknutter/Sites/Timber/build/Debug-iphonesimulator/Timber.app/nomDimentionLarge.csv000000000080d041^616"CpResource Setting/../../../Documents/nomDimentionLarge.csv build/Debug-iphonesimulator/Timber.app/nomDimentionLarge.csv    cd /Users/nicknutter/Sites/Timber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/nicknutter/Sites/Timber/Setting/../../../Documents/nomDimentionLarge.csv /Users/nicknutter/Sites/Timber/build/Debug-iphonesimulator/Timber.app36"1B3B0A95-39D4-44EE-9B9F-48D699467870-
+
+CCpResource Setting/../../../Documents/nomDimentionSmall.csv build/Debug-iphonesimulator/Timber.app/nomDimentionSmall.csv
+s392435810.259080
+e392435810.261129
+r1
+xCpResource
+xSetting/../../../Documents/nomDimentionSmall.csv
+xbuild/Debug-iphonesimulator/Timber.app/nomDimentionSmall.csv
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy build/Debug-iphonesimulator/Timber.app/nomDimentionSmall.csv0f6342621864b741^9dd942621864b741^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/nicknutter/Sites/Timber/build/Debug-iphonesimulator/Timber.app/nomDimentionSmall.csv000000000080d041^616"CpResource Setting/../../../Documents/nomDimentionSmall.csv build/Debug-iphonesimulator/Timber.app/nomDimentionSmall.csv    cd /Users/nicknutter/Sites/Timber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/nicknutter/Sites/Timber/Setting/../../../Documents/nomDimentionSmall.csv /Users/nicknutter/Sites/Timber/build/Debug-iphonesimulator/Timber.app36"4919D76B-DCD8-4701-A8FD-396196CF2192-
+
 CCpResource Setting/../Default-568h@2x.png build/Debug-iphonesimulator/Timber.app/Default-568h@2x.png
 s392427249.946026
 e392427249.949457
@@ -265,23 +317,23 @@ xbuild/Debug-iphonesimulator/Timber.app/Default-568h@2x.png
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy build/Debug-iphonesimulator/Timber.app/Default-568h@2x.png5248f2f1f663b741^e00ff3f1f663b741^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/nicknutter/Sites/Timber/build/Debug-iphonesimulator/Timber.app/Default-568h@2x.png000000000080d041^584"CpResource "Setting/../Default-568h@2x.png" "build/Debug-iphonesimulator/Timber.app/Default-568h@2x.png"    cd /Users/nicknutter/Sites/Timber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/nicknutter/Sites/Timber/Setting/../Default-568h@2x.png" /Users/nicknutter/Sites/Timber/build/Debug-iphonesimulator/Timber.app36"27E7CE5C-E915-4C1F-844F-763E4C661136-
 
 CGenerateDSYMFile /Users/nicknutter/Sites/Timber/build/Debug-iphonesimulator/Timber.app.dSYM /Users/nicknutter/Sites/Timber/build/Debug-iphonesimulator/Timber.app/Timber
-s392434622.017801
-e392434622.139351
+s392501493.259730
+e392501493.282543
 r1
 xGenerateDSYMFile
 x/Users/nicknutter/Sites/Timber/build/Debug-iphonesimulator/Timber.app.dSYM
 x/Users/nicknutter/Sites/Timber/build/Debug-iphonesimulator/Timber.app/Timber
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Generate /Users/nicknutter/Sites/Timber/build/Debug-iphonesimulator/Timber.app.dSYM87a604be1364b741^3fac23be1364b741^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/nicknutter/Sites/Timber/build/Debug-iphonesimulator/Timber.app.dSYM/0000000000000000^595"GenerateDSYMFile build/Debug-iphonesimulator/Timber.app.dSYM build/Debug-iphonesimulator/Timber.app/Timber    cd /Users/nicknutter/Sites/Timber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/nicknutter/Sites/Timber/build/Debug-iphonesimulator/Timber.app/Timber -o /Users/nicknutter/Sites/Timber/build/Debug-iphonesimulator/Timber.app.dSYM36"D0AAA896-4DB5-4998-B5A9-D708CE4850DC-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Generate /Users/nicknutter/Sites/Timber/build/Debug-iphonesimulator/Timber.app.dSYM268c42f51865b741^8b5448f51865b741^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/nicknutter/Sites/Timber/build/Debug-iphonesimulator/Timber.app.dSYM/0000000000000000^595"GenerateDSYMFile build/Debug-iphonesimulator/Timber.app.dSYM build/Debug-iphonesimulator/Timber.app/Timber    cd /Users/nicknutter/Sites/Timber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/nicknutter/Sites/Timber/build/Debug-iphonesimulator/Timber.app/Timber -o /Users/nicknutter/Sites/Timber/build/Debug-iphonesimulator/Timber.app.dSYM36"C8CD42A0-44B3-41F1-9C31-D06D767FE7BA-
 
 CLd /Users/nicknutter/Sites/Timber/build/Debug-iphonesimulator/Timber.app/Timber normal i386
-s392434621.505376
-e392434622.010682
+s392501493.228380
+e392501493.252623
 r1
 xLd
 x/Users/nicknutter/Sites/Timber/build/Debug-iphonesimulator/Timber.app/Timber
 xnormal
 xi386
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Link /Users/nicknutter/Sites/Timber/build/Debug-iphonesimulator/Timber.app/Timber766f81bd1364b741^73bc02be1364b741^---0#0#0#--1089"Ld build/Debug-iphonesimulator/Timber.app/Timber normal i386    cd /Users/nicknutter/Sites/Timber    setenv IPHONEOS_DEPLOYMENT_TARGET 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -L/Users/nicknutter/Sites/Timber/build/Debug-iphonesimulator -F/Users/nicknutter/Sites/Timber/build/Debug-iphonesimulator -filelist /Users/nicknutter/Sites/Timber/build/Timber.build/Debug-iphonesimulator/Timber.build/Objects-normal/i386/Timber.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=5.1 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/nicknutter/Sites/Timber/build/Debug-iphonesimulator/Timber.app/Timber36"D37A8151-F458-4E1A-AFB6-7C31F386970B-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Link /Users/nicknutter/Sites/Timber/build/Debug-iphonesimulator/Timber.app/Timber94863af51865b741^a4ab40f51865b741^---0#0#0#--1089"Ld build/Debug-iphonesimulator/Timber.app/Timber normal i386    cd /Users/nicknutter/Sites/Timber    setenv IPHONEOS_DEPLOYMENT_TARGET 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -L/Users/nicknutter/Sites/Timber/build/Debug-iphonesimulator -F/Users/nicknutter/Sites/Timber/build/Debug-iphonesimulator -filelist /Users/nicknutter/Sites/Timber/build/Timber.build/Debug-iphonesimulator/Timber.build/Objects-normal/i386/Timber.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=5.1 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/nicknutter/Sites/Timber/build/Debug-iphonesimulator/Timber.app/Timber36"E97B76DA-C00A-4F7D-8D3B-155488A31D05-
 
 CProcessInfoPlistFile /Users/nicknutter/Sites/Timber/build/Debug-iphonesimulator/Timber.app/Info.plist Setting/Setting-Info.plist
 r0
@@ -312,10 +364,10 @@ xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Precompile Setting/Timber-Prefix.pch0a2fd5f0f663b741^8d2938f1f663b741^---0#0#0#-19%DVTDocumentLocation2@72"file://localhost/Users/nicknutter/Sites/Timber/Setting/Timber-Prefix.pch0000000000000000^3319"ProcessPCH /var/folders/xp/k2p9yv813zv4mbpnk1q6dr740000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Timber-Prefix-bitqmoltztbqvtffolpacqbalxpx/Timber-Prefix.pch.pth Setting/Timber-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nicknutter/Sites/Timber    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.1 -iquote /Users/nicknutter/Sites/Timber/build/Timber.build/Debug-iphonesimulator/Timber.build/Timber-generated-files.hmap -I/Users/nicknutter/Sites/Timber/build/Timber.build/Debug-iphonesimulator/Timber.build/Timber-own-target-headers.hmap -I/Users/nicknutter/Sites/Timber/build/Timber.build/Debug-iphonesimulator/Timber.build/Timber-all-target-headers.hmap -iquote /Users/nicknutter/Sites/Timber/build/Timber.build/Debug-iphonesimulator/Timber.build/Timber-project-headers.hmap -I/Users/nicknutter/Sites/Timber/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/nicknutter/Sites/Timber/build/Timber.build/Debug-iphonesimulator/Timber.build/DerivedSources/i386 -I/Users/nicknutter/Sites/Timber/build/Timber.build/Debug-iphonesimulator/Timber.build/DerivedSources -F/Users/nicknutter/Sites/Timber/build/Debug-iphonesimulator --serialize-diagnostics /var/folders/xp/k2p9yv813zv4mbpnk1q6dr740000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Timber-Prefix-bitqmoltztbqvtffolpacqbalxpx/Timber-Prefix.pch.dia -c /Users/nicknutter/Sites/Timber/Setting/Timber-Prefix.pch -o /var/folders/xp/k2p9yv813zv4mbpnk1q6dr740000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Timber-Prefix-bitqmoltztbqvtffolpacqbalxpx/Timber-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/xp/k2p9yv813zv4mbpnk1q6dr740000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Timber-Prefix-bitqmoltztbqvtffolpacqbalxpx/Timber-Prefix.pch.d36"42AA5C1D-B1F9-44FB-9E0D-6CE31A0EBD83-
 
 CTouch /Users/nicknutter/Sites/Timber/build/Debug-iphonesimulator/Timber.app
-s392434622.156288
-e392434622.188345
+s392501493.299269
+e392501493.304760
 r1
 xTouch
 x/Users/nicknutter/Sites/Timber/build/Debug-iphonesimulator/Timber.app
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Touch /Users/nicknutter/Sites/Timber/build/Debug-iphonesimulator/Timber.app130f28be1364b741^8f3830be1364b741^---0#0#0#--370"Touch build/Debug-iphonesimulator/Timber.app    cd /Users/nicknutter/Sites/Timber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/nicknutter/Sites/Timber/build/Debug-iphonesimulator/Timber.app36"C4C7477A-9E4E-4E3F-B956-3879413C0076-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Touch /Users/nicknutter/Sites/Timber/build/Debug-iphonesimulator/Timber.app69a94cf51865b741^f3044ef51865b741^---0#0#0#--370"Touch build/Debug-iphonesimulator/Timber.app    cd /Users/nicknutter/Sites/Timber    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/nicknutter/Sites/Timber/build/Debug-iphonesimulator/Timber.app36"9DF66268-74E8-4DC5-803F-DE72979F1B9D-
 

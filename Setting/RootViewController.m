@@ -34,6 +34,7 @@
 - (void)dealloc
 {
     [_accounts release], _accounts = nil;
+    [_woodTypeList release], _woodTypeList = nil;
     [super dealloc];
 }
 
@@ -47,13 +48,32 @@
 
     self.navigationItem.title = @"Columns";
     
-    itemsList = [[NSArray alloc] initWithObjects:@"kjdff", nil];
+    [self loadnomDimentionSmall];
+    
+    
     _accounts = [[NSMutableArray alloc] initWithObjects:
                [NSMutableDictionary dictionaryWithObjectsAndKeys:@"Nominal Dimentions", @"id", @"guest", @"password", nil],
                  [NSMutableDictionary dictionaryWithObjectsAndKeys:@"Wood type", @"id", @"guest", @"password", nil],
                  [NSMutableDictionary dictionaryWithObjectsAndKeys:@"Grade", @"id", @"guest", @"password", nil],
                  [NSMutableDictionary dictionaryWithObjectsAndKeys:@"Load Duration Factor", @"id", @"guest", @"password", nil],
-               nil];
+                 nil];
+}
+
+- (void) loadnomDimentionSmall
+{
+    
+
+NSString *filePath = [[NSBundle mainBundle] pathForResource:@"nomDimentionSmall" ofType:@"csv"];
+if (filePath) {
+    NSString *myText = [NSString stringWithContentsOfFile:filePath];
+    if (myText) {
+        return;
+    }
+    NSArray *contentArray = [filePath componentsSeparatedByString:@"\r"];
+    for (NSString *item in contentArray) {
+        NSArray *itemsArray = [item componentsSeparatedByString:@","];
+    }
+}
 }
 
 - (void)viewDidUnload
@@ -116,7 +136,7 @@
 {
     switch (section) {
         case 0:
-            return @"Account:";
+            return @"Data:";
             break;
     }
     return @"";
@@ -195,10 +215,8 @@
     int row = [indexPath row];
     switch (section) {
         case 0:
-            // アカウント関連グループ
             
             if (indexPath.row < [_accounts count]) {
-                // 登録されているアカウントのセル
                 
                 // Navigation logic may go here. Create and push another view controller.
                 AccountViewController *accountViewController = [[[AccountViewController alloc] init] autorelease];
@@ -209,7 +227,6 @@
                 [self.navigationController pushViewController:accountViewController animated:YES];
                 
             } else {
-                // アカウントを追加するためのセル
                 
                 // Navigation logic may go here. Create and push another view controller.
                 AddAccountViewController *addAccountViewController = [[[AddAccountViewController alloc] init] autorelease];
@@ -224,7 +241,5 @@
 
 
 
-
-
-
 @end
+    
