@@ -1,0 +1,313 @@
+TSetting
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/nicknutter/Sites/UITableView-Examples/Setting/build/Debug-iphonesimulator/Setting.app/Info.plist Setting/Setting-Info.plist
+cProcessPCH /var/folders/xp/k2p9yv813zv4mbpnk1q6dr740000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Setting-Prefix-fzyqadwwcilhhohbxertglbjumdy/Setting-Prefix.pch.pth Setting/Setting-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Setting.build/Debug-iphonesimulator/Setting.build/Objects-normal/i386/AppDelegate.o /Users/nicknutter/Sites/UITableView-Examples/Setting/Setting/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Setting.build/Debug-iphonesimulator/Setting.build/Objects-normal/i386/RootViewController.o /Users/nicknutter/Sites/UITableView-Examples/Setting/Setting/RootViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Setting.build/Debug-iphonesimulator/Setting.build/Objects-normal/i386/AccountViewController.o /Users/nicknutter/Sites/UITableView-Examples/Setting/Setting/AccountViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Setting.build/Debug-iphonesimulator/Setting.build/Objects-normal/i386/AddAccountViewController.o /Users/nicknutter/Sites/UITableView-Examples/Setting/Setting/AddAccountViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Setting.build/Debug-iphonesimulator/Setting.build/Objects-normal/i386/main.o /Users/nicknutter/Sites/UITableView-Examples/Setting/Setting/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/nicknutter/Sites/UITableView-Examples/Setting/build/Debug-iphonesimulator/Setting.app/Setting normal i386
+cGenerateDSYMFile /Users/nicknutter/Sites/UITableView-Examples/Setting/build/Debug-iphonesimulator/Setting.app.dSYM /Users/nicknutter/Sites/UITableView-Examples/Setting/build/Debug-iphonesimulator/Setting.app/Setting
+cCopyStringsFile /Users/nicknutter/Sites/UITableView-Examples/Setting/build/Debug-iphonesimulator/Setting.app/en.lproj/InfoPlist.strings Setting/en.lproj/InfoPlist.strings
+cCpResource Setting/../Default-568h@2x.png build/Debug-iphonesimulator/Setting.app/Default-568h@2x.png
+cTouch /Users/nicknutter/Sites/UITableView-Examples/Setting/build/Debug-iphonesimulator/Setting.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk
+c0000000051721EBF0000000000000110
+t1366433471
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000516B95210000000000228FE0
+t1366005025
+s2265056
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000516B952400000000003DDFA0
+t1366005028
+s4054944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000516B952B0000000000AB6230
+t1366005035
+s11231792
+
+N/Users/nicknutter/Sites/UITableView-Examples/Setting/Setting/../Default-568h@2x.png
+c0000000051B39A5200000000000048A2
+t1370724946
+s18594
+
+N/Users/nicknutter/Sites/UITableView-Examples/Setting/Setting/AccountViewController.h
+c0000000051B39A5200000000000001CF
+t1370724946
+s463
+
+N/Users/nicknutter/Sites/UITableView-Examples/Setting/Setting/AccountViewController.m
+c0000000051B39A520000000000001E99
+t1370724946
+s7833
+
+N/Users/nicknutter/Sites/UITableView-Examples/Setting/Setting/AddAccountViewController.h
+c0000000051B39A5200000000000001E0
+t1370724946
+s480
+
+N/Users/nicknutter/Sites/UITableView-Examples/Setting/Setting/AddAccountViewController.m
+c0000000051B3A8BD000000000000245B
+t1370728637
+s9307
+
+N/Users/nicknutter/Sites/UITableView-Examples/Setting/Setting/AppDelegate.h
+c0000000051B39A52000000000000016C
+t1370724946
+s364
+
+N/Users/nicknutter/Sites/UITableView-Examples/Setting/Setting/AppDelegate.m
+c0000000051B39A520000000000000B04
+t1370724946
+s2820
+
+N/Users/nicknutter/Sites/UITableView-Examples/Setting/Setting/RootViewController.h
+c0000000051B3A8BD0000000000000212
+t1370728637
+s530
+
+N/Users/nicknutter/Sites/UITableView-Examples/Setting/Setting/RootViewController.m
+c0000000051B3B0AB000000000000293D
+t1370730667
+s10557
+
+N/Users/nicknutter/Sites/UITableView-Examples/Setting/Setting/Setting-Prefix.pch
+c0000000051B39A52000000000000013D
+t1370724946
+s317
+
+N/Users/nicknutter/Sites/UITableView-Examples/Setting/Setting/en.lproj/InfoPlist.strings
+c0000000051B39A52000000000000002D
+t1370724946
+s45
+
+N/Users/nicknutter/Sites/UITableView-Examples/Setting/Setting/main.m
+c0000000051B39A52000000000000015B
+t1370724946
+s347
+
+N/Users/nicknutter/Sites/UITableView-Examples/Setting/build/Debug-iphonesimulator/Setting.app
+t1370730668
+s238
+
+N/Users/nicknutter/Sites/UITableView-Examples/Setting/build/Debug-iphonesimulator/Setting.app.dSYM
+t1370730668
+s102
+
+N/Users/nicknutter/Sites/UITableView-Examples/Setting/build/Debug-iphonesimulator/Setting.app/Default-568h@2x.png
+t1370725191
+s18594
+
+N/Users/nicknutter/Sites/UITableView-Examples/Setting/build/Debug-iphonesimulator/Setting.app/Info.plist
+t1370725189
+s922
+
+N/Users/nicknutter/Sites/UITableView-Examples/Setting/build/Debug-iphonesimulator/Setting.app/PkgInfo
+t1370725189
+s8
+
+N/Users/nicknutter/Sites/UITableView-Examples/Setting/build/Debug-iphonesimulator/Setting.app/Setting
+t1370730668
+s75496
+
+N/Users/nicknutter/Sites/UITableView-Examples/Setting/build/Debug-iphonesimulator/Setting.app/en.lproj/InfoPlist.strings
+t1370725191
+s42
+
+N/Users/nicknutter/Sites/UITableView-Examples/Setting/build/Setting.build/Debug-iphonesimulator/Setting.build/Objects-normal/i386/AccountViewController.o
+t1370725190
+s99964
+
+N/Users/nicknutter/Sites/UITableView-Examples/Setting/build/Setting.build/Debug-iphonesimulator/Setting.build/Objects-normal/i386/AddAccountViewController.o
+t1370728638
+s95416
+
+N/Users/nicknutter/Sites/UITableView-Examples/Setting/build/Setting.build/Debug-iphonesimulator/Setting.build/Objects-normal/i386/AppDelegate.o
+t1370728638
+s92756
+
+N/Users/nicknutter/Sites/UITableView-Examples/Setting/build/Setting.build/Debug-iphonesimulator/Setting.build/Objects-normal/i386/RootViewController.o
+t1370730667
+s95348
+
+N/Users/nicknutter/Sites/UITableView-Examples/Setting/build/Setting.build/Debug-iphonesimulator/Setting.build/Objects-normal/i386/Setting.LinkFileList
+c0000000051B39B4500000000000002E2
+t1370725189
+s738
+
+N/Users/nicknutter/Sites/UITableView-Examples/Setting/build/Setting.build/Debug-iphonesimulator/Setting.build/Objects-normal/i386/main.o
+t1370725190
+s3192
+
+N/var/folders/xp/k2p9yv813zv4mbpnk1q6dr740000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Setting-Prefix-fzyqadwwcilhhohbxertglbjumdy/Setting-Prefix.pch.pth
+t1370725190
+s4665936
+
+NSetting/Setting-Info.plist
+c0000000051B39A5200000000000005DC
+t1370724946
+s1500
+
+CBuild AST from /Users/nicknutter/Sites/UITableView-Examples/Setting/Setting/AccountViewController.m
+r0
+
+CBuild AST from /Users/nicknutter/Sites/UITableView-Examples/Setting/Setting/AddAccountViewController.m
+r0
+
+CBuild AST from /Users/nicknutter/Sites/UITableView-Examples/Setting/Setting/AppDelegate.m
+r0
+
+CBuild AST from /Users/nicknutter/Sites/UITableView-Examples/Setting/Setting/RootViewController.m
+r0
+
+CBuild AST from /Users/nicknutter/Sites/UITableView-Examples/Setting/Setting/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies016b854fe863b741^99bc854fe863b741^---0#1#0#--18"Check dependencies36"9FE1D247-3120-45FF-9BED-8447E6014DC2-
+
+CCompileC build/Setting.build/Debug-iphonesimulator/Setting.build/Objects-normal/i386/AccountViewController.o /Users/nicknutter/Sites/UITableView-Examples/Setting/Setting/AccountViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s392417990.192368
+e392417990.421792
+r1
+xCompileC
+xbuild/Setting.build/Debug-iphonesimulator/Setting.build/Objects-normal/i386/AccountViewController.o
+x/Users/nicknutter/Sites/UITableView-Examples/Setting/Setting/AccountViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/nicknutter/Sites/UITableView-Examples/Setting/Setting/AccountViewController.m0f6431c6d263b741^e3fe6bc6d263b741^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/nicknutter/Sites/UITableView-Examples/Setting/Setting/AccountViewController.m0000000000000000^3651"CompileC build/Setting.build/Debug-iphonesimulator/Setting.build/Objects-normal/i386/AccountViewController.o Setting/AccountViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nicknutter/Sites/UITableView-Examples/Setting    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.1 -iquote /Users/nicknutter/Sites/UITableView-Examples/Setting/build/Setting.build/Debug-iphonesimulator/Setting.build/Setting-generated-files.hmap -I/Users/nicknutter/Sites/UITableView-Examples/Setting/build/Setting.build/Debug-iphonesimulator/Setting.build/Setting-own-target-headers.hmap -I/Users/nicknutter/Sites/UITableView-Examples/Setting/build/Setting.build/Debug-iphonesimulator/Setting.build/Setting-all-target-headers.hmap -iquote /Users/nicknutter/Sites/UITableView-Examples/Setting/build/Setting.build/Debug-iphonesimulator/Setting.build/Setting-project-headers.hmap -I/Users/nicknutter/Sites/UITableView-Examples/Setting/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/nicknutter/Sites/UITableView-Examples/Setting/build/Setting.build/Debug-iphonesimulator/Setting.build/DerivedSources/i386 -I/Users/nicknutter/Sites/UITableView-Examples/Setting/build/Setting.build/Debug-iphonesimulator/Setting.build/DerivedSources -F/Users/nicknutter/Sites/UITableView-Examples/Setting/build/Debug-iphonesimulator -include /var/folders/xp/k2p9yv813zv4mbpnk1q6dr740000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Setting-Prefix-fzyqadwwcilhhohbxertglbjumdy/Setting-Prefix.pch -MMD -MT dependencies -MF /Users/nicknutter/Sites/UITableView-Examples/Setting/build/Setting.build/Debug-iphonesimulator/Setting.build/Objects-normal/i386/AccountViewController.d --serialize-diagnostics /Users/nicknutter/Sites/UITableView-Examples/Setting/build/Setting.build/Debug-iphonesimulator/Setting.build/Objects-normal/i386/AccountViewController.dia -c /Users/nicknutter/Sites/UITableView-Examples/Setting/Setting/AccountViewController.m -o /Users/nicknutter/Sites/UITableView-Examples/Setting/build/Setting.build/Debug-iphonesimulator/Setting.build/Objects-normal/i386/AccountViewController.o36"71DAD799-2CB2-4B3E-99CB-87E4C6B9D985-
+
+CCompileC build/Setting.build/Debug-iphonesimulator/Setting.build/Objects-normal/i386/AddAccountViewController.o /Users/nicknutter/Sites/UITableView-Examples/Setting/Setting/AddAccountViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s392421437.488637
+e392421438.195773
+r1
+xCompileC
+xbuild/Setting.build/Debug-iphonesimulator/Setting.build/Objects-normal/i386/AddAccountViewController.o
+x/Users/nicknutter/Sites/UITableView-Examples/Setting/Setting/AddAccountViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/nicknutter/Sites/UITableView-Examples/Setting/Setting/AddAccountViewController.m65547d3de063b741^de20323ee063b741^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/nicknutter/Sites/UITableView-Examples/Setting/Setting/AddAccountViewController.m0000000000000000^3669"CompileC build/Setting.build/Debug-iphonesimulator/Setting.build/Objects-normal/i386/AddAccountViewController.o Setting/AddAccountViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nicknutter/Sites/UITableView-Examples/Setting    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.1 -iquote /Users/nicknutter/Sites/UITableView-Examples/Setting/build/Setting.build/Debug-iphonesimulator/Setting.build/Setting-generated-files.hmap -I/Users/nicknutter/Sites/UITableView-Examples/Setting/build/Setting.build/Debug-iphonesimulator/Setting.build/Setting-own-target-headers.hmap -I/Users/nicknutter/Sites/UITableView-Examples/Setting/build/Setting.build/Debug-iphonesimulator/Setting.build/Setting-all-target-headers.hmap -iquote /Users/nicknutter/Sites/UITableView-Examples/Setting/build/Setting.build/Debug-iphonesimulator/Setting.build/Setting-project-headers.hmap -I/Users/nicknutter/Sites/UITableView-Examples/Setting/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/nicknutter/Sites/UITableView-Examples/Setting/build/Setting.build/Debug-iphonesimulator/Setting.build/DerivedSources/i386 -I/Users/nicknutter/Sites/UITableView-Examples/Setting/build/Setting.build/Debug-iphonesimulator/Setting.build/DerivedSources -F/Users/nicknutter/Sites/UITableView-Examples/Setting/build/Debug-iphonesimulator -include /var/folders/xp/k2p9yv813zv4mbpnk1q6dr740000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Setting-Prefix-fzyqadwwcilhhohbxertglbjumdy/Setting-Prefix.pch -MMD -MT dependencies -MF /Users/nicknutter/Sites/UITableView-Examples/Setting/build/Setting.build/Debug-iphonesimulator/Setting.build/Objects-normal/i386/AddAccountViewController.d --serialize-diagnostics /Users/nicknutter/Sites/UITableView-Examples/Setting/build/Setting.build/Debug-iphonesimulator/Setting.build/Objects-normal/i386/AddAccountViewController.dia -c /Users/nicknutter/Sites/UITableView-Examples/Setting/Setting/AddAccountViewController.m -o /Users/nicknutter/Sites/UITableView-Examples/Setting/build/Setting.build/Debug-iphonesimulator/Setting.build/Objects-normal/i386/AddAccountViewController.o36"B5C24201-F48F-4D31-96A1-7690AD238A83-
+
+CCompileC build/Setting.build/Debug-iphonesimulator/Setting.build/Objects-normal/i386/AppDelegate.o /Users/nicknutter/Sites/UITableView-Examples/Setting/Setting/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s392421437.488611
+e392421438.195820
+r1
+xCompileC
+xbuild/Setting.build/Debug-iphonesimulator/Setting.build/Objects-normal/i386/AppDelegate.o
+x/Users/nicknutter/Sites/UITableView-Examples/Setting/Setting/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/nicknutter/Sites/UITableView-Examples/Setting/Setting/AppDelegate.m00547d3de063b741^af27323ee063b741^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/nicknutter/Sites/UITableView-Examples/Setting/Setting/AppDelegate.m0000000000000000^3591"CompileC build/Setting.build/Debug-iphonesimulator/Setting.build/Objects-normal/i386/AppDelegate.o Setting/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nicknutter/Sites/UITableView-Examples/Setting    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.1 -iquote /Users/nicknutter/Sites/UITableView-Examples/Setting/build/Setting.build/Debug-iphonesimulator/Setting.build/Setting-generated-files.hmap -I/Users/nicknutter/Sites/UITableView-Examples/Setting/build/Setting.build/Debug-iphonesimulator/Setting.build/Setting-own-target-headers.hmap -I/Users/nicknutter/Sites/UITableView-Examples/Setting/build/Setting.build/Debug-iphonesimulator/Setting.build/Setting-all-target-headers.hmap -iquote /Users/nicknutter/Sites/UITableView-Examples/Setting/build/Setting.build/Debug-iphonesimulator/Setting.build/Setting-project-headers.hmap -I/Users/nicknutter/Sites/UITableView-Examples/Setting/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/nicknutter/Sites/UITableView-Examples/Setting/build/Setting.build/Debug-iphonesimulator/Setting.build/DerivedSources/i386 -I/Users/nicknutter/Sites/UITableView-Examples/Setting/build/Setting.build/Debug-iphonesimulator/Setting.build/DerivedSources -F/Users/nicknutter/Sites/UITableView-Examples/Setting/build/Debug-iphonesimulator -include /var/folders/xp/k2p9yv813zv4mbpnk1q6dr740000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Setting-Prefix-fzyqadwwcilhhohbxertglbjumdy/Setting-Prefix.pch -MMD -MT dependencies -MF /Users/nicknutter/Sites/UITableView-Examples/Setting/build/Setting.build/Debug-iphonesimulator/Setting.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/nicknutter/Sites/UITableView-Examples/Setting/build/Setting.build/Debug-iphonesimulator/Setting.build/Objects-normal/i386/AppDelegate.dia -c /Users/nicknutter/Sites/UITableView-Examples/Setting/Setting/AppDelegate.m -o /Users/nicknutter/Sites/UITableView-Examples/Setting/build/Setting.build/Debug-iphonesimulator/Setting.build/Objects-normal/i386/AppDelegate.o36"9DF8C5D1-BA3B-4F4B-BCE7-734A503DA7F1-
+
+CCompileC build/Setting.build/Debug-iphonesimulator/Setting.build/Objects-normal/i386/RootViewController.o /Users/nicknutter/Sites/UITableView-Examples/Setting/Setting/RootViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s392423467.321715
+e392423467.965386
+r1
+xCompileC
+xbuild/Setting.build/Debug-iphonesimulator/Setting.build/Objects-normal/i386/RootViewController.o
+x/Users/nicknutter/Sites/UITableView-Examples/Setting/Setting/RootViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/nicknutter/Sites/UITableView-Examples/Setting/Setting/RootViewController.mfdd9532be863b741^e222f72be863b741^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/nicknutter/Sites/UITableView-Examples/Setting/Setting/RootViewController.m0000000000000000^3633"CompileC build/Setting.build/Debug-iphonesimulator/Setting.build/Objects-normal/i386/RootViewController.o Setting/RootViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nicknutter/Sites/UITableView-Examples/Setting    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.1 -iquote /Users/nicknutter/Sites/UITableView-Examples/Setting/build/Setting.build/Debug-iphonesimulator/Setting.build/Setting-generated-files.hmap -I/Users/nicknutter/Sites/UITableView-Examples/Setting/build/Setting.build/Debug-iphonesimulator/Setting.build/Setting-own-target-headers.hmap -I/Users/nicknutter/Sites/UITableView-Examples/Setting/build/Setting.build/Debug-iphonesimulator/Setting.build/Setting-all-target-headers.hmap -iquote /Users/nicknutter/Sites/UITableView-Examples/Setting/build/Setting.build/Debug-iphonesimulator/Setting.build/Setting-project-headers.hmap -I/Users/nicknutter/Sites/UITableView-Examples/Setting/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/nicknutter/Sites/UITableView-Examples/Setting/build/Setting.build/Debug-iphonesimulator/Setting.build/DerivedSources/i386 -I/Users/nicknutter/Sites/UITableView-Examples/Setting/build/Setting.build/Debug-iphonesimulator/Setting.build/DerivedSources -F/Users/nicknutter/Sites/UITableView-Examples/Setting/build/Debug-iphonesimulator -include /var/folders/xp/k2p9yv813zv4mbpnk1q6dr740000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Setting-Prefix-fzyqadwwcilhhohbxertglbjumdy/Setting-Prefix.pch -MMD -MT dependencies -MF /Users/nicknutter/Sites/UITableView-Examples/Setting/build/Setting.build/Debug-iphonesimulator/Setting.build/Objects-normal/i386/RootViewController.d --serialize-diagnostics /Users/nicknutter/Sites/UITableView-Examples/Setting/build/Setting.build/Debug-iphonesimulator/Setting.build/Objects-normal/i386/RootViewController.dia -c /Users/nicknutter/Sites/UITableView-Examples/Setting/Setting/RootViewController.m -o /Users/nicknutter/Sites/UITableView-Examples/Setting/build/Setting.build/Debug-iphonesimulator/Setting.build/Objects-normal/i386/RootViewController.o36"4F46AFD8-2C73-45C4-B620-8D85C3834D9F-
+
+CCompileC build/Setting.build/Debug-iphonesimulator/Setting.build/Objects-normal/i386/main.o /Users/nicknutter/Sites/UITableView-Examples/Setting/Setting/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s392417990.192323
+e392417990.371277
+r1
+xCompileC
+xbuild/Setting.build/Debug-iphonesimulator/Setting.build/Objects-normal/i386/main.o
+x/Users/nicknutter/Sites/UITableView-Examples/Setting/Setting/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/nicknutter/Sites/UITableView-Examples/Setting/Setting/main.m8d6231c6d263b741^6b0b5fc6d263b741^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/nicknutter/Sites/UITableView-Examples/Setting/Setting/main.m0000000000000000^3549"CompileC build/Setting.build/Debug-iphonesimulator/Setting.build/Objects-normal/i386/main.o Setting/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nicknutter/Sites/UITableView-Examples/Setting    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.1 -iquote /Users/nicknutter/Sites/UITableView-Examples/Setting/build/Setting.build/Debug-iphonesimulator/Setting.build/Setting-generated-files.hmap -I/Users/nicknutter/Sites/UITableView-Examples/Setting/build/Setting.build/Debug-iphonesimulator/Setting.build/Setting-own-target-headers.hmap -I/Users/nicknutter/Sites/UITableView-Examples/Setting/build/Setting.build/Debug-iphonesimulator/Setting.build/Setting-all-target-headers.hmap -iquote /Users/nicknutter/Sites/UITableView-Examples/Setting/build/Setting.build/Debug-iphonesimulator/Setting.build/Setting-project-headers.hmap -I/Users/nicknutter/Sites/UITableView-Examples/Setting/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/nicknutter/Sites/UITableView-Examples/Setting/build/Setting.build/Debug-iphonesimulator/Setting.build/DerivedSources/i386 -I/Users/nicknutter/Sites/UITableView-Examples/Setting/build/Setting.build/Debug-iphonesimulator/Setting.build/DerivedSources -F/Users/nicknutter/Sites/UITableView-Examples/Setting/build/Debug-iphonesimulator -include /var/folders/xp/k2p9yv813zv4mbpnk1q6dr740000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Setting-Prefix-fzyqadwwcilhhohbxertglbjumdy/Setting-Prefix.pch -MMD -MT dependencies -MF /Users/nicknutter/Sites/UITableView-Examples/Setting/build/Setting.build/Debug-iphonesimulator/Setting.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/nicknutter/Sites/UITableView-Examples/Setting/build/Setting.build/Debug-iphonesimulator/Setting.build/Objects-normal/i386/main.dia -c /Users/nicknutter/Sites/UITableView-Examples/Setting/Setting/main.m -o /Users/nicknutter/Sites/UITableView-Examples/Setting/build/Setting.build/Debug-iphonesimulator/Setting.build/Objects-normal/i386/main.o36"F3070EEC-9FB0-4982-81B4-A22FD958359D-
+
+CCopyStringsFile /Users/nicknutter/Sites/UITableView-Examples/Setting/build/Debug-iphonesimulator/Setting.app/en.lproj/InfoPlist.strings Setting/en.lproj/InfoPlist.strings
+s392417991.137297
+e392417991.167216
+r1
+xCopyStringsFile
+x/Users/nicknutter/Sites/UITableView-Examples/Setting/build/Debug-iphonesimulator/Setting.app/en.lproj/InfoPlist.strings
+xSetting/en.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Copy Setting/en.lproj/InfoPlist.stringsa8fe25c7d263b741^79ce2ac7d263b741^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/nicknutter/Sites/UITableView-Examples/Setting/Setting/en.lproj/InfoPlist.strings0000000000000000^603"CopyStringsFile build/Debug-iphonesimulator/Setting.app/en.lproj/InfoPlist.strings Setting/en.lproj/InfoPlist.strings    cd /Users/nicknutter/Sites/UITableView-Examples/Setting    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/nicknutter/Sites/UITableView-Examples/Setting/build/Debug-iphonesimulator/Setting.app/en.lproj -- Setting/en.lproj/InfoPlist.strings36"D0B4EC73-84F1-4729-AED5-3318DD0E56A0-
+
+CCpResource Setting/../Default-568h@2x.png build/Debug-iphonesimulator/Setting.app/Default-568h@2x.png
+s392417991.137311
+e392417991.152430
+r1
+xCpResource
+xSetting/../Default-568h@2x.png
+xbuild/Debug-iphonesimulator/Setting.app/Default-568h@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy build/Debug-iphonesimulator/Setting.app/Default-568h@2x.png9cfd25c7d263b741^d90527c7d263b741^---0#0#0#-19%DVTDocumentLocation2@128"file://localhost/Users/nicknutter/Sites/UITableView-Examples/Setting/build/Debug-iphonesimulator/Setting.app/Default-568h@2x.png000000000080d041^652"CpResource "Setting/../Default-568h@2x.png" "build/Debug-iphonesimulator/Setting.app/Default-568h@2x.png"    cd /Users/nicknutter/Sites/UITableView-Examples/Setting    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/nicknutter/Sites/UITableView-Examples/Setting/Setting/../Default-568h@2x.png" /Users/nicknutter/Sites/UITableView-Examples/Setting/build/Debug-iphonesimulator/Setting.app36"C91C0CCC-D903-46BD-A03A-E1D72384378D-
+
+CGenerateDSYMFile /Users/nicknutter/Sites/UITableView-Examples/Setting/build/Debug-iphonesimulator/Setting.app.dSYM /Users/nicknutter/Sites/UITableView-Examples/Setting/build/Debug-iphonesimulator/Setting.app/Setting
+s392423468.417881
+e392423468.662705
+r1
+xGenerateDSYMFile
+x/Users/nicknutter/Sites/UITableView-Examples/Setting/build/Debug-iphonesimulator/Setting.app.dSYM
+x/Users/nicknutter/Sites/UITableView-Examples/Setting/build/Debug-iphonesimulator/Setting.app/Setting
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Generate /Users/nicknutter/Sites/UITableView-Examples/Setting/build/Debug-iphonesimulator/Setting.app.dSYM07076b2ce863b741^c6a6a92ce863b741^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/nicknutter/Sites/UITableView-Examples/Setting/build/Debug-iphonesimulator/Setting.app.dSYM/0000000000000000^667"GenerateDSYMFile build/Debug-iphonesimulator/Setting.app.dSYM build/Debug-iphonesimulator/Setting.app/Setting    cd /Users/nicknutter/Sites/UITableView-Examples/Setting    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/nicknutter/Sites/UITableView-Examples/Setting/build/Debug-iphonesimulator/Setting.app/Setting -o /Users/nicknutter/Sites/UITableView-Examples/Setting/build/Debug-iphonesimulator/Setting.app.dSYM36"73EDDC18-6ADE-42A0-97B4-979A8C4F1D95-
+
+CLd /Users/nicknutter/Sites/UITableView-Examples/Setting/build/Debug-iphonesimulator/Setting.app/Setting normal i386
+s392423467.972433
+e392423468.411471
+r1
+xLd
+x/Users/nicknutter/Sites/UITableView-Examples/Setting/build/Debug-iphonesimulator/Setting.app/Setting
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Link /Users/nicknutter/Sites/UITableView-Examples/Setting/build/Debug-iphonesimulator/Setting.app/Setting1502f92be863b741^7155692ce863b741^---0#0#0#--1206"Ld build/Debug-iphonesimulator/Setting.app/Setting normal i386    cd /Users/nicknutter/Sites/UITableView-Examples/Setting    setenv IPHONEOS_DEPLOYMENT_TARGET 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -L/Users/nicknutter/Sites/UITableView-Examples/Setting/build/Debug-iphonesimulator -F/Users/nicknutter/Sites/UITableView-Examples/Setting/build/Debug-iphonesimulator -filelist /Users/nicknutter/Sites/UITableView-Examples/Setting/build/Setting.build/Debug-iphonesimulator/Setting.build/Objects-normal/i386/Setting.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=5.1 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/nicknutter/Sites/UITableView-Examples/Setting/build/Debug-iphonesimulator/Setting.app/Setting36"87FA41E2-B6F3-45D8-864A-D4A6F5703E19-
+
+CProcessInfoPlistFile /Users/nicknutter/Sites/UITableView-Examples/Setting/build/Debug-iphonesimulator/Setting.app/Info.plist Setting/Setting-Info.plist
+s392417989.591485
+e392417989.594683
+r1
+xProcessInfoPlistFile
+x/Users/nicknutter/Sites/UITableView-Examples/Setting/build/Debug-iphonesimulator/Setting.app/Info.plist
+xSetting/Setting-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection34"Process Setting/Setting-Info.plist297b97c5d263b741^634599c5d263b741^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/nicknutter/Sites/UITableView-Examples/Setting/Setting/Setting-Info.plist0000000000000000^692"ProcessInfoPlistFile build/Debug-iphonesimulator/Setting.app/Info.plist Setting/Setting-Info.plist    cd /Users/nicknutter/Sites/UITableView-Examples/Setting    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Setting/Setting-Info.plist -genpkginfo /Users/nicknutter/Sites/UITableView-Examples/Setting/build/Debug-iphonesimulator/Setting.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/nicknutter/Sites/UITableView-Examples/Setting/build/Debug-iphonesimulator/Setting.app/Info.plist36"AF660591-A6B1-40DE-9DA1-75F41768FF88-
+
+CProcessPCH /Users/nicknutter/Library/Developer/Xcode/DerivedData/Setting-dduygogithitprcwonssaerxpgom/Index/PrecompiledHeaders/Setting-Prefix-abrsdzbmylkdlvgothdpcazvvqmj_ast/Setting-Prefix.pch.pth Setting/Setting-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/xp/k2p9yv813zv4mbpnk1q6dr740000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Setting-Prefix-fzyqadwwcilhhohbxertglbjumdy/Setting-Prefix.pch.pth Setting/Setting-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s392417989.606626
+e392417990.185393
+r1
+xProcessPCH
+x/var/folders/xp/k2p9yv813zv4mbpnk1q6dr740000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Setting-Prefix-fzyqadwwcilhhohbxertglbjumdy/Setting-Prefix.pch.pth
+xSetting/Setting-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Precompile Setting/Setting-Prefix.pche4679bc5d263b741^e2772fc6d263b741^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/nicknutter/Sites/UITableView-Examples/Setting/Setting/Setting-Prefix.pch0000000000000000^3565"ProcessPCH /var/folders/xp/k2p9yv813zv4mbpnk1q6dr740000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Setting-Prefix-fzyqadwwcilhhohbxertglbjumdy/Setting-Prefix.pch.pth Setting/Setting-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nicknutter/Sites/UITableView-Examples/Setting    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.1 -iquote /Users/nicknutter/Sites/UITableView-Examples/Setting/build/Setting.build/Debug-iphonesimulator/Setting.build/Setting-generated-files.hmap -I/Users/nicknutter/Sites/UITableView-Examples/Setting/build/Setting.build/Debug-iphonesimulator/Setting.build/Setting-own-target-headers.hmap -I/Users/nicknutter/Sites/UITableView-Examples/Setting/build/Setting.build/Debug-iphonesimulator/Setting.build/Setting-all-target-headers.hmap -iquote /Users/nicknutter/Sites/UITableView-Examples/Setting/build/Setting.build/Debug-iphonesimulator/Setting.build/Setting-project-headers.hmap -I/Users/nicknutter/Sites/UITableView-Examples/Setting/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/nicknutter/Sites/UITableView-Examples/Setting/build/Setting.build/Debug-iphonesimulator/Setting.build/DerivedSources/i386 -I/Users/nicknutter/Sites/UITableView-Examples/Setting/build/Setting.build/Debug-iphonesimulator/Setting.build/DerivedSources -F/Users/nicknutter/Sites/UITableView-Examples/Setting/build/Debug-iphonesimulator --serialize-diagnostics /var/folders/xp/k2p9yv813zv4mbpnk1q6dr740000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Setting-Prefix-fzyqadwwcilhhohbxertglbjumdy/Setting-Prefix.pch.dia -c /Users/nicknutter/Sites/UITableView-Examples/Setting/Setting/Setting-Prefix.pch -o /var/folders/xp/k2p9yv813zv4mbpnk1q6dr740000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Setting-Prefix-fzyqadwwcilhhohbxertglbjumdy/Setting-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/xp/k2p9yv813zv4mbpnk1q6dr740000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Setting-Prefix-fzyqadwwcilhhohbxertglbjumdy/Setting-Prefix.pch.d36"110B0FAD-2E0E-4FE6-8BB1-6A8A5983C84C-
+
+CTouch /Users/nicknutter/Sites/UITableView-Examples/Setting/build/Debug-iphonesimulator/Setting.app
+s392423468.678270
+e392423468.742758
+r1
+xTouch
+x/Users/nicknutter/Sites/UITableView-Examples/Setting/build/Debug-iphonesimulator/Setting.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Touch /Users/nicknutter/Sites/UITableView-Examples/Setting/build/Debug-iphonesimulator/Setting.appc5aead2ce863b741^5325be2ce863b741^---0#0#0#--416"Touch build/Debug-iphonesimulator/Setting.app    cd /Users/nicknutter/Sites/UITableView-Examples/Setting    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/nicknutter/Sites/UITableView-Examples/Setting/build/Debug-iphonesimulator/Setting.app36"DC48420B-AFF9-41AF-BD82-EE9D17EF7D7B-
+
