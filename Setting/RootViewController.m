@@ -45,7 +45,7 @@
 {
     [super viewDidLoad];
 
-    self.navigationItem.title = @"Columns";
+    self.navigationItem.title = @"Timber";
     
     itemsList = [[NSArray alloc] initWithObjects:@"kjdff", nil];
     _accounts = [[NSMutableArray alloc] initWithObjects:
@@ -56,6 +56,10 @@
                  [NSMutableDictionary dictionaryWithObjectsAndKeys:@"C of M", @"id", @"guest", @"password", nil],
                  [NSMutableDictionary dictionaryWithObjectsAndKeys:@"C of G", @"id", @"guest", @"password", nil],
                nil];
+    
+    UITapGestureRecognizer *tapRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleSingleTap:)];
+    [tapRecognizer setNumberOfTapsRequired:1];
+    [self.view addGestureRecognizer:tapRecognizer];
 }
 
 - (void)viewDidUnload
@@ -63,6 +67,11 @@
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
+}
+
+- (void)handleSingleTap:(UITapGestureRecognizer *)recognizer
+{
+    [self.view endEditing:YES];
 }
 
 - (void)viewWillAppear:(BOOL)animated
@@ -118,7 +127,7 @@
 {
     switch (section) {
         case 0:
-            return @"Account:";
+            return @"Column Information:";
             break;
     }
     return @"";
@@ -140,26 +149,6 @@
     switch (section) {
         case 0:
             if (indexPath.row > 3) {
-                //cell.accessoryType = UITableViewCellAccessoryNone;
-                //UITextField *textField = [[UITextField alloc] initWithFrame:CGRectMake(100, 0, cell.frame.size.width - 100, cell.frame.size.height)];
-               /* UITextField *textField = [[UITextField alloc] initWithFrame:cell.frame];
-                //textField.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
-                
-                textField.adjustsFontSizeToFitWidth = YES;
-                textField.textColor = [UIColor blackColor];
-                textField.backgroundColor = [UIColor clearColor];
-                textField.keyboardType = UIKeyboardTypeNumberPad;
-                textField.returnKeyType = UIReturnKeyNext;
-                textField.textAlignment = UITextAlignmentRight;
-                textField.tag = 0;
-                textField.autoresizesSubviews=YES;
-                
-                textField.clearButtonMode = UITextFieldViewModeNever; // no clear 'x' button to the right
-                //[textField setEnabled: YES];
-                cell.accessoryView = textField;
-                //[cell.contentView addSubview:textField];
-                
-                [textField release];*/
                 UITextField *textField = [[UITextField alloc] initWithFrame:CGRectMake(0, 0, 200, 21)];
                 textField.placeholder = @"Enter number";
                 textField.tag = 1000+indexPath.row;
@@ -247,10 +236,6 @@
             break;
     }
 }
-
-
-
-
 
 
 @end
