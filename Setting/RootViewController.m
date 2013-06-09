@@ -53,6 +53,8 @@
                  [NSMutableDictionary dictionaryWithObjectsAndKeys:@"Wood type", @"id", @"guest", @"password", nil],
                  [NSMutableDictionary dictionaryWithObjectsAndKeys:@"Grade", @"id", @"guest", @"password", nil],
                  [NSMutableDictionary dictionaryWithObjectsAndKeys:@"Load Duration Factor", @"id", @"guest", @"password", nil],
+                 [NSMutableDictionary dictionaryWithObjectsAndKeys:@"C of M", @"id", @"guest", @"password", nil],
+                 [NSMutableDictionary dictionaryWithObjectsAndKeys:@"C of G", @"id", @"guest", @"password", nil],
                nil];
 }
 
@@ -137,11 +139,43 @@
     int row = [indexPath row];
     switch (section) {
         case 0:
-            cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
-            if (indexPath.row < [_accounts count]) {
-                data = [_accounts objectAtIndex:row];
-                cell.textLabel.text = [data objectForKey:@"id"];
+            if (indexPath.row > 3) {
+                //cell.accessoryType = UITableViewCellAccessoryNone;
+                //UITextField *textField = [[UITextField alloc] initWithFrame:CGRectMake(100, 0, cell.frame.size.width - 100, cell.frame.size.height)];
+               /* UITextField *textField = [[UITextField alloc] initWithFrame:cell.frame];
+                //textField.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
+                
+                textField.adjustsFontSizeToFitWidth = YES;
+                textField.textColor = [UIColor blackColor];
+                textField.backgroundColor = [UIColor clearColor];
+                textField.keyboardType = UIKeyboardTypeNumberPad;
+                textField.returnKeyType = UIReturnKeyNext;
+                textField.textAlignment = UITextAlignmentRight;
+                textField.tag = 0;
+                textField.autoresizesSubviews=YES;
+                
+                textField.clearButtonMode = UITextFieldViewModeNever; // no clear 'x' button to the right
+                //[textField setEnabled: YES];
+                cell.accessoryView = textField;
+                //[cell.contentView addSubview:textField];
+                
+                [textField release];*/
+                UITextField *textField = [[UITextField alloc] initWithFrame:CGRectMake(0, 0, 200, 21)];
+                textField.placeholder = @"Enter number";
+                textField.tag = 1000+indexPath.row;
+                textField.returnKeyType = UIReturnKeyDone;
+                //textField.delegate = self;
+                textField.keyboardType = UIKeyboardTypeDecimalPad;
+                textField.textAlignment = UITextAlignmentRight;
+                cell.accessoryView = textField;
+                [textField release];
+                
+                cell.selectionStyle = UITableViewCellSelectionStyleNone;
+            } else {
+                cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
             }
+            data = [_accounts objectAtIndex:row];
+            cell.textLabel.text = [data objectForKey:@"id"];
             break;
     }
     
@@ -195,11 +229,8 @@
     int row = [indexPath row];
     switch (section) {
         case 0:
-            // アカウント関連グループ
-            
-            if (indexPath.row < [_accounts count]) {
-                // 登録されているアカウントのセル
-                
+            // Go to list view
+            if (indexPath.row < 3) {
                 // Navigation logic may go here. Create and push another view controller.
                 AccountViewController *accountViewController = [[[AccountViewController alloc] init] autorelease];
                 accountViewController.datas = _accounts;
@@ -209,14 +240,9 @@
                 [self.navigationController pushViewController:accountViewController animated:YES];
                 
             } else {
-                // アカウントを追加するためのセル
-                
-                // Navigation logic may go here. Create and push another view controller.
-                AddAccountViewController *addAccountViewController = [[[AddAccountViewController alloc] init] autorelease];
-                addAccountViewController.datas = _accounts;
-                
-                // Pass the selected object to the new view controller.
-                [self.navigationController pushViewController:addAccountViewController animated:YES];
+                // Pull up keyboard
+                UITextField* field =  (UITextField *) [tableView viewWithTag: indexPath.row + 1000];
+                [field becomeFirstResponder];
             }
             break;
     }
