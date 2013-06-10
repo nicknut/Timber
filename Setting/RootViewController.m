@@ -48,7 +48,6 @@
     [super viewDidLoad];
 
     self.navigationItem.title = @"Timber";
-    
     _nomSelectedIndex = @-1;
     _nomList = [[NSMutableArray alloc] init];
     [self loadnomDimentionSmall];
@@ -76,10 +75,7 @@
                 [NSMutableDictionary dictionaryWithObjectsAndKeys:@"Result 3 fc*", @"id", @"guest", @"password", nil],
                 [NSMutableDictionary dictionaryWithObjectsAndKeys:@"Result 4 Cp", @"id", @"guest", @"password", nil],
                 nil];
-    
-    //UITapGestureRecognizer *tapRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleSingleTap:)];
-    //[tapRecognizer setNumberOfTapsRequired:1];
-    //[self.view addGestureRecognizer:tapRecognizer];
+
 }
 
 - (void) loadnomDimentionSmall
@@ -232,6 +228,14 @@
                 
                 cell.selectionStyle = UITableViewCellSelectionStyleNone;
             } else {
+                UILabel *labelField = [[UILabel alloc]initWithFrame:CGRectMake(100, 7, 180, 30)];
+
+                labelField.tag = 1000+indexPath.row;
+                labelField.textAlignment = UITextAlignmentRight;
+                labelField.BackgroundColor = [UIColor clearColor];
+                [cell addSubview:labelField];
+                //cell.accessoryView = labelField;
+                [labelField release];
                 cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
             }
             data = [_accounts objectAtIndex:row];
@@ -350,7 +354,6 @@
     // Set the active field. We' ll need that if we want to move properly
     // between our textfields.
     txtActiveField = textField;
-    NSLog(@"Here");
 }
 
 -(void)gotoPrevTextfield{
@@ -388,6 +391,19 @@
     [txtActiveField resignFirstResponder];
 }
 
+- (void)addItemViewController:(ListViewController *)controller didFinishEnteringItem:(int)row
+{
+    [self.navigationController popViewControllerAnimated:YES];
+    
+    switch (selectedIndex) {
+        case 0:
+            _nomSelectedIndex = row;
+            UILabel* field =  (UILabel *) [[self tableView] viewWithTag: 1000];
+            field.text = [_nomList objectAtIndex:row][0];
+            break;
+    }
+}
+
 #pragma mark - Table view delegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
@@ -397,21 +413,23 @@
     switch (section) {
         case 0:
             // Go to list view
-            if (indexPath.row < 3) {
+            if (row < 3) {
                 // Navigation logic may go here. Create and push another view controller.
                 ListViewController *listViewController = [[[ListViewController alloc] init] autorelease];
-                
-                if(indexPath.row == 0) {
-                    listViewController.datas = _nomList;
-                    listViewController.index = _nomSelectedIndex;
+                selectedIndex = row;
+                switch(row) {
+                    case 0:
+                        listViewController.datas = _nomList;
+                        listViewController.index = _nomSelectedIndex;
+                        break;
                 }
-                
+                listViewController.delegate = self;
                 // Pass the selected object to the new view controller.
                 [self.navigationController pushViewController:listViewController animated:YES];
                 
             } else {
                 // Pull up keyboard
-                UITextField* field =  (UITextField *) [tableView viewWithTag: indexPath.row + 1000];
+                UITextField* field =  (UITextField *) [tableView viewWithTag: row + 1000];
                 [field becomeFirstResponder];
             }
             break;

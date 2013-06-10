@@ -4,10 +4,9 @@
 
 #import "ListViewController.h"
 
-
 @implementation ListViewController
 
-@synthesize datas, index;
+@synthesize datas, index, delegate;
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -110,7 +109,7 @@
     NSMutableArray *data = [datas objectAtIndex:row];
     cell.textLabel.text = [data objectAtIndex:0];
     if(index == row) {
-        cell.selected = TRUE;
+        cell.backgroundColor = [UIColor greenColor];
     }
     return cell;
 }
@@ -159,8 +158,7 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     int row = [indexPath row];
-    index = row;
-    [self.navigationController popViewControllerAnimated:YES];
+    [self.delegate addItemViewController:self didFinishEnteringItem:row];
 }
 
 @end
