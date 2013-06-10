@@ -7,6 +7,12 @@
 
 @implementation RootViewController
 
+@synthesize txtActiveField;
+@synthesize inputAccView;
+@synthesize btnDone;
+@synthesize btnNext;
+@synthesize btnPrev;
+
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -211,7 +217,7 @@
                 textField.placeholder = @"Enter number";
                 textField.tag = 1000+indexPath.row;
                 textField.returnKeyType = UIReturnKeyDone;
-                //textField.delegate = self;
+                textField.delegate = self;
                 textField.keyboardType = UIKeyboardTypeDecimalPad;
                 textField.textAlignment = UITextAlignmentRight;
                 cell.accessoryView = textField;
@@ -281,6 +287,99 @@
     return YES;
 }
 */
+
+// The done on the keyboard events
+
+-(void)createInputAccessoryView{
+    // Create the view that will play the part of the input accessory view.
+    // Note that the frame width (third value in the CGRectMake method)
+    // should change accordingly in landscape orientation. But we don’t care
+    // about that now.
+    inputAccView = [[UIView alloc] initWithFrame:CGRectMake(10.0, 0.0, 310.0, 40.0)];
+    // Set the view’s background color. We’ ll set it here to gray. Use any color you want.
+    [inputAccView setBackgroundColor:[UIColor colorWithRed:0.0 green:0 blue:0 alpha:0.1]];
+    // We can play a little with transparency as well using the Alpha property. Normally
+    // you can leave it unchanged.    // If you want you may set or change more properties (ex. Font, background image,e.t.c.).
+    // For now, what we’ ve already done is just enough.
+    // Let’s create our buttons now. First the previous button.
+    /*
+    btnPrev = [UIButton buttonWithType: UIButtonTypeCustom];
+    // Set the button’ s frame. We will set their widths to 80px and height to 40px.
+    [btnPrev setFrame: CGRectMake(5.0, 5.0, 80.0, 30.0)];
+    // Title.
+    [btnPrev setTitle: @"Previous" forState: UIControlStateNormal];
+    [btnPrev setBackgroundColor:[UIColor blueColor]];
+    // Background color.
+    // You can set more properties if you need to.
+    // With the following command we’ ll make the button to react in finger tapping. Note that the
+    // gotoPrevTextfield method that is referred to the @selector is not yet created. We’ ll create it
+    // (as well as the methods for the rest of our buttons) later.
+    [btnPrev addTarget: self action: @selector(gotoPrevTextfield) forControlEvents: UIControlEventTouchUpInside];
+    // Do the same for the two buttons left.
+    btnNext = [UIButton buttonWithType:UIButtonTypeCustom];
+    [btnNext setFrame:CGRectMake(90.0f, 5.0f, 80.0f, 30.0f)];
+    [btnNext setTitle:@"Next" forState:UIControlStateNormal];
+    [btnNext setBackgroundColor:[UIColor blueColor]];
+    [btnNext addTarget:self action:@selector(gotoNextTextfield) forControlEvents:UIControlEventTouchUpInside];
+    */
+    btnDone = [UIButton buttonWithType:UIButtonTypeCustom];
+    [btnDone setFrame:CGRectMake(235.0, 5.0f, 80.0f, 30.0f)];
+    [btnDone setTitle:@"Done" forState:UIControlStateNormal];
+    [btnDone setBackgroundColor:[UIColor greenColor]];
+    [btnDone setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    [btnDone addTarget:self action:@selector(doneTyping) forControlEvents:UIControlEventTouchUpInside];
+    // Now that our buttons are ready we just have to add them to our view.
+    [inputAccView addSubview:btnPrev];
+    [inputAccView addSubview:btnNext];
+    [inputAccView addSubview:btnDone];
+}
+
+-(void)textFieldDidBeginEditing:(UITextField *)textField{
+    // Call the createInputAccessoryView method we created earlier.
+    // By doing that we will prepare the inputAccView.
+    [self createInputAccessoryView];
+    // Now add the view as an input accessory view to the selected textfield.
+    [textField setInputAccessoryView:inputAccView];
+    // Set the active field. We' ll need that if we want to move properly
+    // between our textfields.
+    txtActiveField = textField;
+    NSLog(@"Here");
+}
+
+-(void)gotoPrevTextfield{
+    // If the active textfield is the first one, can't go to any previous
+    // field so just return.
+    //if (txtActiveField == txtField1) {
+        return;
+    //}
+    //else {
+        // Otherwise if the second textfield has the focus, the operation
+        // of "previous" button can be done and set the first field as the first
+        // responder.
+    //    [txtField1 becomeFirstResponder];
+    //}
+    
+    // NOTE: If you have more than two textfields, you modify the if... blocks
+    // according to your needs. The example here is quite simple and in a complete
+    // app it's possible that you'll have more than two textfields.
+}
+
+-(void)gotoNextTextfield{
+    // If the active textfield is the second one, there is no next so just return.
+    //if (txtActiveField == txtField2) {
+        return;
+    /*}
+    else {
+        // Make the second textfield our first responder.
+        [txtField2 becomeFirstResponder];
+    }*/
+}
+
+-(void)doneTyping{
+    // When the "done" button is tapped, the keyboard should go away.
+    // That simply means that we just have to resign our first responder.
+    [txtActiveField resignFirstResponder];
+}
 
 #pragma mark - Table view delegate
 
