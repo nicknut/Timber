@@ -3,21 +3,26 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ListViewController.h"
 
-@interface RootViewController : UITableViewController <UITableViewDelegate, UITableViewDataSource,UITextFieldDelegate>
+@interface RootViewController : UITableViewController <UITableViewDelegate, UITableViewDataSource,UITextFieldDelegate,ListViewControllerDelegate>
 {
     NSMutableArray *_accounts;
     NSMutableArray *_results;
+    
+    // What list we opened
+    int selectedIndex;
+    
+    // For first list
     NSMutableArray *_nomList;
-    NSNumber *_nomSelectedIndex;
+    int _nomSelectedIndex;
     
     // For keyboard next/done
     UITextField *txtActiveField;
     UIView *inputAccView;
     UIButton *btnDone;
     UIButton *btnNext;
-    UIButton *btnPrev;
-}
+    UIButton *btnPrev;}
 
 @property (nonatomic, retain) UITextField *txtActiveField;
 @property (nonatomic, retain) UIView *inputAccView;
