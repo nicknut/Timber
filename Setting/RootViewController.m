@@ -61,13 +61,20 @@
                  [NSMutableDictionary dictionaryWithObjectsAndKeys:@"Grade", @"id", @"guest", @"password", nil],
                  [NSMutableDictionary dictionaryWithObjectsAndKeys:@"Load Duration Factor", @"id", @"guest", @"password", nil],
 
-                 [NSMutableDictionary dictionaryWithObjectsAndKeys:@"C sub M", @"id", @"guest", @"password", nil],
-                 [NSMutableDictionary dictionaryWithObjectsAndKeys:@"C of G", @"id", @"guest", @"password", nil],
+                 [NSMutableDictionary dictionaryWithObjectsAndKeys:@"CM", @"id", @"guest", @"password", nil],
+                 [NSMutableDictionary dictionaryWithObjectsAndKeys:@"Ct", @"id", @"guest", @"password", nil],
+                 [NSMutableDictionary dictionaryWithObjectsAndKeys:@"CF", @"id", @"guest", @"password", nil],
+                 [NSMutableDictionary dictionaryWithObjectsAndKeys:@"Cp", @"id", @"guest", @"password", nil],
+                 [NSMutableDictionary dictionaryWithObjectsAndKeys:@"Ci", @"id", @"guest", @"password", nil],
+                 [NSMutableDictionary dictionaryWithObjectsAndKeys:@"CT", @"id", @"guest", @"password", nil],
+                
                nil];
     
     _results = [[NSMutableArray alloc] initWithObjects:
-                [NSMutableDictionary dictionaryWithObjectsAndKeys:@"Result 1", @"id", @"guest", @"password", nil],
-                [NSMutableDictionary dictionaryWithObjectsAndKeys:@"Result 2", @"id", @"guest", @"password", nil],
+                [NSMutableDictionary dictionaryWithObjectsAndKeys:@"Result 1 Emin'", @"id", @"guest", @"password", nil],
+                [NSMutableDictionary dictionaryWithObjectsAndKeys:@"Result 2 Fce", @"id", @"guest", @"password", nil],
+                [NSMutableDictionary dictionaryWithObjectsAndKeys:@"Result 3 fc*", @"id", @"guest", @"password", nil],
+                [NSMutableDictionary dictionaryWithObjectsAndKeys:@"Result 4 Cp", @"id", @"guest", @"password", nil],
                 nil];
     
     //UITapGestureRecognizer *tapRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleSingleTap:)];
